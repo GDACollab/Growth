@@ -1,0 +1,1585 @@
+﻿[2016.01.21-19.34.36:652][  0]Log file open, 01/21/16 11:34:36
+[2016.01.21-19.34.36:652][  0]LogInit:Display: Running engine for game: Growth
+[2016.01.21-19.34.36:652][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.21-19.34.36:652][  0]LogInit:Display: RandInit(-1866125069) SRandInit(-1866125068).
+[2016.01.21-19.34.36:652][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.21-19.34.36:652][  0]LogStats: Stats thread started at 0.091441
+[2016.01.21-19.34.36:652][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2016.01.21-19.34.36:652][  0]LogInit: API Version: 2758231
+[2016.01.21-19.34.36:652][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2016.01.21-19.34.36:652][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.21-19.34.36:652][  0]LogInit: Build Configuration: Development
+[2016.01.21-19.34.36:652][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.21-19.34.36:652][  0]LogInit: Command line:  
+[2016.01.21-19.34.36:652][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.21-19.34.36:652][  0]LogInit: Rocket: 1
+[2016.01.21-19.34.36:663][  0]LogInit: Using libcurl 7.41.0
+[2016.01.21-19.34.36:663][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.21-19.34.36:663][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.21-19.34.36:663][  0]LogInit:  - other features:
+[2016.01.21-19.34.36:663][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.21-19.34.36:663][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.21-19.34.36:663][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.21-19.34.36:663][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.21-19.34.36:663][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.21-19.34.36:663][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.21-19.34.36:663][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.21-19.34.36:663][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.21-19.34.36:663][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.21-19.34.36:663][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.21-19.34.36:674][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.21-19.34.36:680][  0]LogInit: Object subsystem initialized
+[2016.01.21-19.34.36:681][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.21-19.34.36:681][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.21-19.34.36:731][  0]LogInit: Computer: ALEX-PC
+[2016.01.21-19.34.36:731][  0]LogInit: User: Alex
+[2016.01.21-19.34.36:731][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.21-19.34.36:731][  0]LogInit: High frequency timer resolution =2.533206 MHz
+[2016.01.21-19.34.36:731][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.21-19.34.36:731][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.21-19.34.36:731][  0]LogMemory: Process Physical Memory: 55.89 MB used, 55.89 MB peak
+[2016.01.21-19.34.36:731][  0]LogMemory: Process Virtual Memory: 58.67 MB used, 58.67 MB peak
+[2016.01.21-19.34.36:731][  0]LogMemory: Physical Memory: 3384.68 MB used, 8110.36 MB total
+[2016.01.21-19.34.36:731][  0]LogMemory: Virtual Memory: 380.51 MB used, 134217728.00 MB total
+[2016.01.21-19.34.37:164][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.21-19.34.38:060][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 965M        (Feature Level 11_0)
+[2016.01.21-19.34.38:060][  0]LogD3D11RHI: Adapter has 4013MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 1 output[s]
+[2016.01.21-19.34.38:068][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.01.21-19.34.38:068][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 0 output[s]
+[2016.01.21-19.34.38:070][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.21-19.34.38:070][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 0 output[s]
+[2016.01.21-19.34.38:070][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.21-19.34.38:076][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.21-19.34.38:076][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.21-19.34.38:094][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.21-19.34.38:108][  0]LogShaderCompilers: Guid format shader working directory is 36 characters bigger than the processId version (E:/Growth/Intermediate/Shaders/WorkingDirectory/4744/).
+[2016.01.21-19.34.38:109][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alex/AppData/Local/Temp/UnrealShaderWorkingDir/20CE9DCF47B6095F6B30A49F5A5B5948/'.
+[2016.01.21-19.34.38:109][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.21-19.34.39:312][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.21-19.34.39:321][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.21-19.34.39:330][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.21-19.34.39:339][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.21-19.34.39:346][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.21-19.34.39:350][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.21-19.34.39:354][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.21-19.34.39:357][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.21-19.34.39:361][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.21-19.34.39:364][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.21-19.34.39:368][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.21-19.34.39:375][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.21-19.34.39:375][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.21-19.34.39:377][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.21-19.34.39:396][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.21-19.34.39:399][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.21-19.34.39:409][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.21-19.34.39:421][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.21-19.34.39:421][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.21-19.34.39:582][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.21-19.34.39:634][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/Alex/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.21-19.34.39:634][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alex/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.21-19.34.39:634][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Growth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.21-19.34.39:634][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.21-19.34.39:634][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Growth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.21-19.34.39:634][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.21-19.34.39:697][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.21-19.34.39:710][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.21-19.34.39:978][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.21-19.34.39:981][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.21-19.34.40:255][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.21-19.34.40:255][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.21-19.34.40:526][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.21-19.34.41:716][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.21-19.34.41:874][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2016.01.21-19.34.42:413][  0]SourceControl: Info Source control is disabled
+[2016.01.21-19.34.42:417][  0]SourceControl: Info Source control is disabled
+[2016.01.21-19.34.42:478][  0]SourceControl: Info Source control is disabled
+[2016.01.21-19.34.42:507][  0]SourceControl: Info Source control is disabled
+[2016.01.21-19.34.42:915][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.21-19.34.42:915][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.01.21-19.34.42:979][  0]LogEngine: Initializing Engine...
+[2016.01.21-19.34.42:984][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.21-19.34.42:984][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.21-19.34.43:128][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.21-19.34.43:140][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-19.34.43:158][  0]LogInit: FAudioDevice initialized.
+[2016.01.21-19.34.43:186][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Alex/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.21-19.34.43:191][  0]LogInit: Texture streaming: Enabled
+[2016.01.21-19.34.43:202][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.21-19.34.43:202][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2016.01.21-19.34.43:202][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 2ea81a834ffda1c7700eadb43070947c|187ad38f3ca5493bb24c70d7c7079e52|82e58137-6379-40ac-b56e-28c7ca34f864
+[2016.01.21-19.34.43:202][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.21-19.34.43:459][  0]LogInit: Transaction tracking system initialized
+[2016.01.21-19.34.43:558][  0]BlueprintLog: New page: Editor Load
+[2016.01.21-19.34.43:755][  0]LocalizationService: Info Localization service is disabled
+[2016.01.21-19.34.43:877][  0]LogConsoleResponse:Display: 
+[2016.01.21-19.34.44:005][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.21-19.34.44:104][  0]LogFileCache: Scanning file cache for directory 'E:/Growth/Content/' took 0.01s
+[2016.01.21-19.34.44:104][  0]SourceControl: Info Source control is disabled
+[2016.01.21-19.34.44:104][  0]Cmd: MAP LOAD FILE="E:/Growth/Content/Maps/ExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.21-19.34.44:105][  0]LightingResults: New page: Lighting Build
+[2016.01.21-19.34.44:111][  0]MapCheck: New page: Map Check
+[2016.01.21-19.34.44:111][  0]LightingResults: New page: Lighting Build
+[2016.01.21-19.34.44:125][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057BC02B420
+[2016.01.21-19.34.44:287][  0]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-19.34.44:300][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.21-19.34.44:301][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.21-19.34.44:392][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 91.565ms to complete.
+[2016.01.21-19.34.44:393][  0]LogFileHelpers: Loading map 'ExampleMap' took 0.289
+[2016.01.21-19.34.44:548][  0]LogCollectionManager: Loaded 0 collections in 0.004079 seconds
+[2016.01.21-19.34.44:592][  0]LogFileCache: Scanning file cache for directory 'E:/Growth/Saved/Collections/' took 0.01s
+[2016.01.21-19.34.44:592][  0]LogFileCache: Scanning file cache for directory 'E:/Growth/Content/Developers/Alex/Collections/' took 0.01s
+[2016.01.21-19.34.44:592][  0]LogFileCache: Scanning file cache for directory 'E:/Growth/Content/Collections/' took 0.01s
+[2016.01.21-19.34.44:592][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.21-19.34.44:600][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 1893 classes and 338 folders.
+[2016.01.21-19.34.44:610][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.01.21-19.34.44:690][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.01.21-19.34.44:697][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.01.21-19.34.44:745][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.21-19.34.44:750][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.21-19.34.44:773][  0]LogLoad: Full Startup: 9.17 seconds (BP compile: 0.06 seconds)
+[2016.01.21-19.34.44:795][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.21-19.34.44:844][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.21-19.34.44:990][  0]LogRenderer: Reallocating scene render targets to support 884x432 (Frame:2).
+[2016.01.21-19.34.45:206][  2]LogAssetRegistry: Asset discovery search completed in 3.3443 seconds
+[2016.01.21-19.34.45:206][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.21-19.34.45:206][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2016.01.21-19.35.54:606][963]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.21-19.35.55:103][963]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
+[2016.01.21-19.48.53:362][522]BlueprintLog: New page: Compile Tree
+[2016.01.21-19.48.53:492][522]BlueprintEditorCompileResults: Info [0857.89] Compile of Tree successful! [in 130 ms]
+[2016.01.21-19.52.49:964][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ExampleMap" FILE="E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.01.21-19.52.50:423][648]LogSavePackage: Save=42.528320ms
+[2016.01.21-19.52.50:423][648]LogSavePackage: Moving 'E:/Growth/Saved/ExampleMap_Auto17981E8AE4BC69E589730BC8B548E22B9.tmp' to 'E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto1.umap'
+[2016.01.21-19.52.50:427][648]LogSavePackage: Total save time: 81.107497ms
+[2016.01.21-19.52.50:427][648]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto1.umap
+[2016.01.21-19.52.50:458][648]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ExampleMap' took 0.527
+[2016.01.21-19.52.50:458][648]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.527
+[2016.01.21-19.52.50:467][648]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Resource] ([1] browsable assets)...
+[2016.01.21-19.52.50:467][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Resource]
+[2016.01.21-19.52.50:467][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Resource" FILE="E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-19.52.50:745][648]LogSavePackage: Save=234.722717ms
+[2016.01.21-19.52.50:745][648]LogSavePackage: Moving 'E:/Growth/Saved/Resource_Auto139FD882045E19FBEE78B06B0097EB609.tmp' to 'E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto1.uasset'
+[2016.01.21-19.52.50:747][648]LogSavePackage: Total save time: 255.940493ms
+[2016.01.21-19.52.50:747][648]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto1.uasset
+[2016.01.21-19.52.50:751][648]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tree] ([1] browsable assets)...
+[2016.01.21-19.52.50:751][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tree]
+[2016.01.21-19.52.50:751][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tree" FILE="E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-19.52.50:944][648]LogSavePackage: Save=128.154205ms
+[2016.01.21-19.52.50:945][648]LogSavePackage: Moving 'E:/Growth/Saved/Tree_Auto1EA54557B48C53F64674900BFF5043A79.tmp' to 'E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto1.uasset'
+[2016.01.21-19.52.50:950][648]LogSavePackage: Total save time: 161.889322ms
+[2016.01.21-19.52.50:950][648]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto1.uasset
+[2016.01.21-19.52.50:950][648]LogFileHelpers: Auto-saving content packages took 0.491
+[2016.01.21-19.53.12:761][814]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.01.21-19.53.12:768][814]LogPlayLevel: [PlayLevel] Compiling Tree before play...
+[2016.01.21-19.53.12:960][814]LogPlayLevel: PlayLevel: Blueprint regeneration took 198 ms (2 blueprints)
+[2016.01.21-19.53.12:966][814]LogPlayLevel: [PlayLevel] Compiling Resource before play...
+[2016.01.21-19.53.13:039][814]LogPlayLevel: PlayLevel: Blueprint regeneration took 277 ms (2 blueprints)
+[2016.01.21-19.53.13:067][814]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 3:53:13 AM)
+[2016.01.21-19.53.13:067][814]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-19.53.13:068][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001541s)
+[2016.01.21-19.53.13:069][814]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-19.53.13:069][814]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2016.01.21-19.53.13:069][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002434s)
+[2016.01.21-19.53.13:101][814]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-19.53.13:115][814]LogInit: FAudioDevice initialized.
+[2016.01.21-19.53.13:319][814]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-19.53.13:325][814]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-11.53.13
+[2016.01.21-19.53.13:325][814]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-19.53.13:326][814]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-19.53.13:328][814]LogWorld: Bringing up level for play took: 0.006125
+[2016.01.21-19.53.13:338][814]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.898
+[2016.01.21-19.53.13:440][815]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:465).
+[2016.01.21-19.53.14:617][877]LogBlueprintUserMessages: [Resource_C_0] Sun
+[2016.01.21-19.53.19:271][155]LogBlueprintUserMessages: [Resource_C_3] Water
+[2016.01.21-19.53.22:044][309]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057E54A8A40
+[2016.01.21-19.55.15:480][997]BlueprintLog: New page: Compile Resource
+[2016.01.21-19.55.15:597][997]BlueprintEditorCompileResults: Info [1239.99] Compile of Resource successful! [in 116 ms]
+[2016.01.21-19.55.16:712][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-19.55.16:713][ 60]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 3:55:16 AM)
+[2016.01.21-19.55.16:713][ 60]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-19.55.16:714][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001580s)
+[2016.01.21-19.55.16:715][ 60]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-19.55.16:715][ 60]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2016.01.21-19.55.16:715][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002438s)
+[2016.01.21-19.55.16:748][ 60]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-19.55.16:761][ 60]LogInit: FAudioDevice initialized.
+[2016.01.21-19.55.16:805][ 60]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-19.55.16:819][ 60]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-11.55.16
+[2016.01.21-19.55.16:819][ 60]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-19.55.16:820][ 60]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-19.55.16:829][ 60]LogWorld: Bringing up level for play took: 0.019823
+[2016.01.21-19.55.16:851][ 60]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.411
+[2016.01.21-19.55.21:559][301]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057AD8ADBC0
+[2016.01.21-19.56.38:417][826]BlueprintLog: New page: Compile Resource
+[2016.01.21-19.56.38:520][826]BlueprintEditorCompileResults: Info [1322.92] Compile of Resource successful! [in 103 ms]
+[2016.01.21-19.56.39:605][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-19.56.39:605][890]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 3:56:39 AM)
+[2016.01.21-19.56.39:605][890]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-19.56.39:607][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001486s)
+[2016.01.21-19.56.39:607][890]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-19.56.39:608][890]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2016.01.21-19.56.39:608][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002243s)
+[2016.01.21-19.56.39:643][890]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-19.56.39:655][890]LogInit: FAudioDevice initialized.
+[2016.01.21-19.56.39:696][890]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-19.56.39:703][890]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-11.56.39
+[2016.01.21-19.56.39:704][890]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-19.56.39:704][890]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-19.56.39:711][890]LogWorld: Bringing up level for play took: 0.014287
+[2016.01.21-19.56.39:753][890]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.686
+[2016.01.21-19.56.40:945][955]LogBlueprintUserMessages: [Resource_C_0] Sun
+[2016.01.21-19.56.42:299][ 36]LogBlueprintUserMessages: [Resource_C_3] Water
+[2016.01.21-19.56.43:323][ 85]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057AC6654E0
+[2016.01.21-19.57.01:346][873]BlueprintLog: New page: Compile Resource
+[2016.01.21-19.57.01:451][873]BlueprintEditorCompileResults: Info [1345.85] Compile of Resource successful! [in 104 ms]
+[2016.01.21-19.58.43:992][916]BlueprintLog: New page: Compile Resource
+[2016.01.21-19.58.44:097][916]BlueprintEditorCompileResults: Info [1448.49] Compile of Resource successful! [in 104 ms]
+[2016.01.21-19.58.44:776][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-19.58.44:776][955]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 3:58:44 AM)
+[2016.01.21-19.58.44:776][955]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-19.58.44:777][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001498s)
+[2016.01.21-19.58.44:778][955]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-19.58.44:778][955]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2016.01.21-19.58.44:778][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002308s)
+[2016.01.21-19.58.44:812][955]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-19.58.44:825][955]LogInit: FAudioDevice initialized.
+[2016.01.21-19.58.44:865][955]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-19.58.44:868][955]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-11.58.44
+[2016.01.21-19.58.44:869][955]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-19.58.44:869][955]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-19.58.44:871][955]LogWorld: Bringing up level for play took: 0.005016
+[2016.01.21-19.58.44:883][955]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.443
+[2016.01.21-19.58.49:822][236]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578572F380
+[2016.01.21-19.59.45:019][504]BlueprintLog: New page: Compile Resource
+[2016.01.21-19.59.45:125][504]BlueprintEditorCompileResults: Info [1509.52] Compile of Resource successful! [in 105 ms]
+[2016.01.21-19.59.46:242][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-19.59.46:242][570]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 3:59:46 AM)
+[2016.01.21-19.59.46:242][570]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-19.59.46:244][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001643s)
+[2016.01.21-19.59.46:245][570]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-19.59.46:245][570]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2016.01.21-19.59.46:245][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002495s)
+[2016.01.21-19.59.46:281][570]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-19.59.46:294][570]LogInit: FAudioDevice initialized.
+[2016.01.21-19.59.46:335][570]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-19.59.46:339][570]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-11.59.46
+[2016.01.21-19.59.46:339][570]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-19.59.46:339][570]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-19.59.46:342][570]LogWorld: Bringing up level for play took: 0.005011
+[2016.01.21-19.59.46:356][570]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.083
+[2016.01.21-19.59.47:078][610]LogBlueprintUserMessages: [Resource_C_0] Sun
+[2016.01.21-19.59.48:224][678]LogBlueprintUserMessages: [Resource_C_3] Water
+[2016.01.21-19.59.48:925][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057F07C72E0
+[2016.01.21-19.59.53:224][960]BlueprintLog: New page: Compile Resource
+[2016.01.21-19.59.53:330][960]BlueprintEditorCompileResults: Info [1517.73] Compile of Resource successful! [in 106 ms]
+[2016.01.21-19.59.54:352][ 18]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-19.59.54:352][ 18]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 3:59:54 AM)
+[2016.01.21-19.59.54:352][ 18]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-19.59.54:354][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001577s)
+[2016.01.21-19.59.54:354][ 18]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-19.59.54:354][ 18]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2016.01.21-19.59.54:355][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002325s)
+[2016.01.21-19.59.54:389][ 18]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-19.59.54:402][ 18]LogInit: FAudioDevice initialized.
+[2016.01.21-19.59.54:439][ 18]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-19.59.54:442][ 18]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-11.59.54
+[2016.01.21-19.59.54:442][ 18]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-19.59.54:442][ 18]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-19.59.54:445][ 18]LogWorld: Bringing up level for play took: 0.004853
+[2016.01.21-19.59.54:455][ 18]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.015
+[2016.01.21-19.59.55:122][ 54]LogBlueprintUserMessages: [Resource_C_0] Sun
+[2016.01.21-19.59.56:067][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578A36C400
+[2016.01.21-20.00.12:115][ 59]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.00.12:219][ 59]BlueprintEditorCompileResults: Info [1536.61] Compile of Resource successful! [in 103 ms]
+[2016.01.21-20.00.14:135][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.00.14:135][167]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:00:14 AM)
+[2016.01.21-20.00.14:135][167]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.00.14:137][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001487s)
+[2016.01.21-20.00.14:137][167]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.00.14:137][167]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2016.01.21-20.00.14:138][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002247s)
+[2016.01.21-20.00.14:172][167]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.00.14:184][167]LogInit: FAudioDevice initialized.
+[2016.01.21-20.00.14:224][167]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.00.14:228][167]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.00.14
+[2016.01.21-20.00.14:229][167]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.00.14:229][167]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.00.14:232][167]LogWorld: Bringing up level for play took: 0.006026
+[2016.01.21-20.00.14:259][167]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.182
+[2016.01.21-20.00.19:031][432]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578A36F7E0
+[2016.01.21-20.03.22:287][304]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.01.21-20.03.22:299][304]LogPlayLevel: [PlayLevel] Compiling Resource before play...
+[2016.01.21-20.03.22:376][304]LogPlayLevel: PlayLevel: Blueprint regeneration took 89 ms (1 blueprints)
+[2016.01.21-20.03.22:404][304]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:03:22 AM)
+[2016.01.21-20.03.22:405][304]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.03.22:406][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001513s)
+[2016.01.21-20.03.22:407][304]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.03.22:407][304]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2016.01.21-20.03.22:407][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002321s)
+[2016.01.21-20.03.22:469][304]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.03.22:494][304]LogInit: FAudioDevice initialized.
+[2016.01.21-20.03.22:535][304]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.03.22:544][304]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.03.22
+[2016.01.21-20.03.22:544][304]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.03.22:545][304]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.03.22:553][304]LogWorld: Bringing up level for play took: 0.016301
+[2016.01.21-20.03.22:579][304]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.14
+[2016.01.21-20.03.35:726][ 61]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578A367C40
+[2016.01.21-20.04.10:412][107]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.04.10:520][107]BlueprintEditorCompileResults: Info [1774.92] Compile of Resource successful! [in 108 ms]
+[2016.01.21-20.04.12:832][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.04.12:833][244]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:04:12 AM)
+[2016.01.21-20.04.12:833][244]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.04.12:834][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001532s)
+[2016.01.21-20.04.12:835][244]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.04.12:835][244]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2016.01.21-20.04.12:835][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002388s)
+[2016.01.21-20.04.12:869][244]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.04.12:881][244]LogInit: FAudioDevice initialized.
+[2016.01.21-20.04.12:922][244]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.04.12:926][244]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.04.12
+[2016.01.21-20.04.12:926][244]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.04.12:926][244]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.04.12:929][244]LogWorld: Bringing up level for play took: 0.005615
+[2016.01.21-20.04.12:952][244]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.512
+[2016.01.21-20.04.16:249][430]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578B39D440
+[2016.01.21-20.04.26:490][ 31]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.04.26:621][ 31]BlueprintEditorCompileResults: Info [1791.02] Compile of Resource successful! [in 131 ms]
+[2016.01.21-20.04.27:333][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.04.27:333][ 72]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:04:27 AM)
+[2016.01.21-20.04.27:333][ 72]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.04.27:334][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001514s)
+[2016.01.21-20.04.27:335][ 72]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.04.27:335][ 72]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2016.01.21-20.04.27:335][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002284s)
+[2016.01.21-20.04.27:369][ 72]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.04.27:381][ 72]LogInit: FAudioDevice initialized.
+[2016.01.21-20.04.27:420][ 72]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.04.27:423][ 72]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.04.27
+[2016.01.21-20.04.27:424][ 72]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.04.27:424][ 72]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.04.27:426][ 72]LogWorld: Bringing up level for play took: 0.005190
+[2016.01.21-20.04.27:467][ 72]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 1.027
+[2016.01.21-20.04.29:827][195]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057941A45E0
+[2016.01.21-20.05.09:951][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ExampleMap" FILE="E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.01.21-20.05.10:398][174]LogSavePackage: Save=54.134563ms
+[2016.01.21-20.05.10:398][174]LogSavePackage: Moving 'E:/Growth/Saved/ExampleMap_Auto2A258485246ADBB088E94DCBCE34EA5FE.tmp' to 'E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto2.umap'
+[2016.01.21-20.05.10:401][174]LogSavePackage: Total save time: 84.747549ms
+[2016.01.21-20.05.10:401][174]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto2.umap
+[2016.01.21-20.05.10:467][174]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ExampleMap' took 0.556
+[2016.01.21-20.05.10:467][174]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.556
+[2016.01.21-20.05.10:479][174]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Resource] ([1] browsable assets)...
+[2016.01.21-20.05.10:479][174]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Resource]
+[2016.01.21-20.05.10:479][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Resource" FILE="E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-20.05.10:673][174]LogSavePackage: Save=135.704315ms
+[2016.01.21-20.05.10:673][174]LogSavePackage: Moving 'E:/Growth/Saved/Resource_Auto2D0C11F9541661C77819DD497B67F27DB.tmp' to 'E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto2.uasset'
+[2016.01.21-20.05.10:676][174]LogSavePackage: Total save time: 165.999923ms
+[2016.01.21-20.05.10:676][174]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto2.uasset
+[2016.01.21-20.05.10:680][174]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tree] ([1] browsable assets)...
+[2016.01.21-20.05.10:680][174]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tree]
+[2016.01.21-20.05.10:680][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tree" FILE="E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-20.05.10:889][174]LogSavePackage: Save=124.598633ms
+[2016.01.21-20.05.10:890][174]LogSavePackage: Moving 'E:/Growth/Saved/Tree_Auto2F4AE409C4FA061DDDD0F9AA99186C2CE.tmp' to 'E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto2.uasset'
+[2016.01.21-20.05.10:895][174]LogSavePackage: Total save time: 153.328631ms
+[2016.01.21-20.05.10:895][174]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto2.uasset
+[2016.01.21-20.05.10:895][174]LogFileHelpers: Auto-saving content packages took 0.424
+[2016.01.21-20.09.18:348][300]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.09.18:477][300]BlueprintEditorCompileResults: Info [2082.87] Compile of Resource successful! [in 128 ms]
+[2016.01.21-20.09.20:150][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.09.20:150][399]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:09:20 AM)
+[2016.01.21-20.09.20:150][399]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.09.20:152][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001545s)
+[2016.01.21-20.09.20:152][399]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.09.20:153][399]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2016.01.21-20.09.20:153][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002421s)
+[2016.01.21-20.09.20:186][399]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.09.20:199][399]LogInit: FAudioDevice initialized.
+[2016.01.21-20.09.20:242][399]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.09.20:245][399]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.09.20
+[2016.01.21-20.09.20:245][399]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.09.20:246][399]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.09.20:248][399]LogWorld: Bringing up level for play took: 0.005009
+[2016.01.21-20.09.20:266][399]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.173
+[2016.01.21-20.09.28:883][880]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057979B93A0
+[2016.01.21-20.09.53:990][369]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.09.54:099][369]BlueprintEditorCompileResults: Info [2118.50] Compile of Resource successful! [in 109 ms]
+[2016.01.21-20.10.28:649][384]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.10.28:763][384]BlueprintEditorCompileResults: Info [2153.16] Compile of Resource successful! [in 113 ms]
+[2016.01.21-20.10.29:474][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.10.29:475][425]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:10:29 AM)
+[2016.01.21-20.10.29:475][425]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.10.29:476][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001545s)
+[2016.01.21-20.10.29:477][425]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.10.29:477][425]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2016.01.21-20.10.29:477][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002408s)
+[2016.01.21-20.10.29:512][425]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.10.29:525][425]LogInit: FAudioDevice initialized.
+[2016.01.21-20.10.29:567][425]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.10.29:570][425]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.10.29
+[2016.01.21-20.10.29:571][425]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.10.29:571][425]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.10.29:573][425]LogWorld: Bringing up level for play took: 0.004953
+[2016.01.21-20.10.29:594][425]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.846
+[2016.01.21-20.10.30:263][460]LogBlueprintUserMessages: [Resource_C_5] Water
+[2016.01.21-20.10.32:678][604]LogBlueprintUserMessages: [Resource_C_1] Sun
+[2016.01.21-20.10.34:866][734]LogBlueprintUserMessages: [Resource_C_4] Air
+[2016.01.21-20.10.35:612][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057C04E9440
+[2016.01.21-20.10.42:245][159]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.10.42:355][159]BlueprintEditorCompileResults: Info [2166.75] Compile of Resource successful! [in 109 ms]
+[2016.01.21-20.10.50:428][637]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.10.50:538][637]BlueprintEditorCompileResults: Info [2174.93] Compile of Resource successful! [in 109 ms]
+[2016.01.21-20.10.52:266][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.10.52:266][739]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:10:52 AM)
+[2016.01.21-20.10.52:266][739]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.10.52:268][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001517s)
+[2016.01.21-20.10.52:268][739]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.10.52:268][739]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2016.01.21-20.10.52:268][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002340s)
+[2016.01.21-20.10.52:312][739]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.10.52:341][739]LogInit: FAudioDevice initialized.
+[2016.01.21-20.10.52:388][739]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.10.52:396][739]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.10.52
+[2016.01.21-20.10.52:396][739]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.10.52:397][739]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.10.52:402][739]LogWorld: Bringing up level for play took: 0.011463
+[2016.01.21-20.10.52:419][739]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.021
+[2016.01.21-20.10.53:298][784]LogBlueprintUserMessages: [Resource_C_5] Water
+[2016.01.21-20.10.54:353][844]LogBlueprintUserMessages: [Resource_C_1] Sun
+[2016.01.21-20.10.55:030][878]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057EBD2E5C0
+[2016.01.21-20.12.15:709][664]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.12.15:823][664]BlueprintEditorCompileResults: Info [2260.22] Compile of Resource successful! [in 113 ms]
+[2016.01.21-20.12.17:469][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.12.17:469][738]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:12:17 AM)
+[2016.01.21-20.12.17:470][738]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.12.17:473][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002853s)
+[2016.01.21-20.12.17:474][738]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.12.17:474][738]LogPlayLevel: PIE: World Init took: (0.001348s)
+[2016.01.21-20.12.17:474][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.004493s)
+[2016.01.21-20.12.17:540][738]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.12.17:579][738]LogInit: FAudioDevice initialized.
+[2016.01.21-20.12.17:637][738]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.12.17:649][738]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.12.17
+[2016.01.21-20.12.17:649][738]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.12.17:650][738]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.12.17:657][738]LogWorld: Bringing up level for play took: 0.016246
+[2016.01.21-20.12.17:687][738]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.753
+[2016.01.21-20.12.20:346][881]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057F3C1DBC0
+[2016.01.21-20.12.35:091][744]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.12.35:204][744]BlueprintEditorCompileResults: Info [2279.60] Compile of Resource successful! [in 113 ms]
+[2016.01.21-20.12.36:242][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.12.36:243][798]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:12:36 AM)
+[2016.01.21-20.12.36:243][798]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.12.36:247][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004476s)
+[2016.01.21-20.12.36:249][798]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.12.36:249][798]LogPlayLevel: PIE: World Init took: (0.001861s)
+[2016.01.21-20.12.36:250][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.006909s)
+[2016.01.21-20.12.36:349][798]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.12.36:380][798]LogInit: FAudioDevice initialized.
+[2016.01.21-20.12.36:429][798]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.12.36:439][798]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.12.36
+[2016.01.21-20.12.36:439][798]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.12.36:440][798]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.12.36:449][798]LogWorld: Bringing up level for play took: 0.017373
+[2016.01.21-20.12.36:502][798]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.062
+[2016.01.21-20.12.38:979][936]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057C1792980
+[2016.01.21-20.12.49:261][533]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.12.49:372][533]BlueprintEditorCompileResults: Info [2293.77] Compile of Resource successful! [in 110 ms]
+[2016.01.21-20.12.50:410][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.12.50:410][592]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:12:50 AM)
+[2016.01.21-20.12.50:410][592]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.12.50:412][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001557s)
+[2016.01.21-20.12.50:412][592]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.12.50:412][592]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2016.01.21-20.12.50:413][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002343s)
+[2016.01.21-20.12.50:447][592]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.12.50:460][592]LogInit: FAudioDevice initialized.
+[2016.01.21-20.12.50:497][592]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.12.50:501][592]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.12.50
+[2016.01.21-20.12.50:501][592]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.12.50:501][592]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.12.50:503][592]LogWorld: Bringing up level for play took: 0.005604
+[2016.01.21-20.12.50:524][592]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.085
+[2016.01.21-20.12.51:580][648]LogBlueprintUserMessages: [Resource_C_5] Water
+[2016.01.21-20.12.53:053][731]LogBlueprintUserMessages: [Resource_C_1] Sun
+[2016.01.21-20.12.53:514][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578A36E520
+[2016.01.21-20.13.36:236][291]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.13.36:356][291]BlueprintEditorCompileResults: Info [2340.75] Compile of Resource successful! [in 119 ms]
+[2016.01.21-20.16.40:190][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ExampleMap" FILE="E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.01.21-20.16.40:638][251]LogSavePackage: Save=55.422653ms
+[2016.01.21-20.16.40:638][251]LogSavePackage: Moving 'E:/Growth/Saved/ExampleMap_Auto379F2D0D24A765916A004968A573AFEBB.tmp' to 'E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto3.umap'
+[2016.01.21-20.16.40:641][251]LogSavePackage: Total save time: 85.081119ms
+[2016.01.21-20.16.40:641][251]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto3.umap
+[2016.01.21-20.16.40:705][251]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ExampleMap' took 0.554
+[2016.01.21-20.16.40:705][251]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.554
+[2016.01.21-20.16.40:718][251]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Resource] ([1] browsable assets)...
+[2016.01.21-20.16.40:718][251]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Resource]
+[2016.01.21-20.16.40:718][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Resource" FILE="E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-20.16.40:918][251]LogSavePackage: Save=142.834015ms
+[2016.01.21-20.16.40:918][251]LogSavePackage: Moving 'E:/Growth/Saved/Resource_Auto367C5EC4B405B6FCBCF53A8AEB18CFFEE.tmp' to 'E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto3.uasset'
+[2016.01.21-20.16.40:920][251]LogSavePackage: Total save time: 173.221603ms
+[2016.01.21-20.16.40:920][251]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto3.uasset
+[2016.01.21-20.16.40:920][251]LogFileHelpers: Auto-saving content packages took 0.213
+[2016.01.21-20.22.42:546][518]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.22.42:664][518]BlueprintEditorCompileResults: Info [2887.06] Compile of Tree successful! [in 117 ms]
+[2016.01.21-20.22.44:043][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.22.44:043][657]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:22:44 AM)
+[2016.01.21-20.22.44:043][657]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.22.44:045][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001568s)
+[2016.01.21-20.22.44:046][657]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.22.44:046][657]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2016.01.21-20.22.44:046][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002579s)
+[2016.01.21-20.22.44:082][657]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.22.44:124][657]LogInit: FAudioDevice initialized.
+[2016.01.21-20.22.44:182][657]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.22.44:192][657]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.22.44
+[2016.01.21-20.22.44:192][657]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.22.44:192][657]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.22.44:199][657]LogWorld: Bringing up level for play took: 0.014351
+[2016.01.21-20.22.44:234][657]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.206
+[2016.01.21-20.22.46:673][841]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057956DB560
+[2016.01.21-20.24.19:103][ 67]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.24.19:205][ 67]BlueprintEditorCompileResults: Info [2983.60] Compile of Tree successful! [in 102 ms]
+[2016.01.21-20.24.33:087][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.24.33:088][607]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:24:33 AM)
+[2016.01.21-20.24.33:088][607]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.24.33:089][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001553s)
+[2016.01.21-20.24.33:090][607]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.24.33:090][607]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2016.01.21-20.24.33:090][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002352s)
+[2016.01.21-20.24.33:125][607]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.24.33:137][607]LogInit: FAudioDevice initialized.
+[2016.01.21-20.24.33:180][607]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.24.33:189][607]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.24.33
+[2016.01.21-20.24.33:190][607]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.24.33:190][607]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.24.33:198][607]LogWorld: Bringing up level for play took: 0.015345
+[2016.01.21-20.24.33:225][607]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.786
+[2016.01.21-20.24.36:903][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578ED87100
+[2016.01.21-20.24.42:484][385]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.24.42:582][385]BlueprintEditorCompileResults: Info [3006.98] Compile of Tree successful! [in 98 ms]
+[2016.01.21-20.24.43:401][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.24.43:401][464]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:24:43 AM)
+[2016.01.21-20.24.43:401][464]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.24.43:403][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001864s)
+[2016.01.21-20.24.43:404][464]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.24.43:404][464]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2016.01.21-20.24.43:404][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002776s)
+[2016.01.21-20.24.43:446][464]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.24.43:460][464]LogInit: FAudioDevice initialized.
+[2016.01.21-20.24.43:500][464]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.24.43:503][464]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.24.43
+[2016.01.21-20.24.43:503][464]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.24.43:504][464]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.24.43:506][464]LogWorld: Bringing up level for play took: 0.005004
+[2016.01.21-20.24.43:521][464]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 1.082
+[2016.01.21-20.24.45:637][605]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057957485E0
+[2016.01.21-20.25.11:650][188]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.01.21-20.25.11:657][188]LogPlayLevel: [PlayLevel] Compiling Tree before play...
+[2016.01.21-20.25.11:722][188]LogPlayLevel: PlayLevel: Blueprint regeneration took 71 ms (2 blueprints)
+[2016.01.21-20.25.11:728][188]LogPlayLevel: [PlayLevel] Compiling Resource before play...
+[2016.01.21-20.25.11:809][188]LogPlayLevel: PlayLevel: Blueprint regeneration took 159 ms (2 blueprints)
+[2016.01.21-20.25.11:840][188]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:25:11 AM)
+[2016.01.21-20.25.11:840][188]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.25.11:841][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001487s)
+[2016.01.21-20.25.11:842][188]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.25.11:842][188]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2016.01.21-20.25.11:842][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002239s)
+[2016.01.21-20.25.11:903][188]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.25.11:929][188]LogInit: FAudioDevice initialized.
+[2016.01.21-20.25.11:975][188]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.25.11:981][188]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.25.11
+[2016.01.21-20.25.11:981][188]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.25.11:981][188]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.25.11:986][188]LogWorld: Bringing up level for play took: 0.008192
+[2016.01.21-20.25.12:005][188]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.434
+[2016.01.21-20.25.13:815][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578ED860C0
+[2016.01.21-20.28.04:625][865]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.28.04:729][865]BlueprintEditorCompileResults: Info [3209.13] Compile of Tree successful! [in 103 ms]
+[2016.01.21-20.28.11:229][491]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.28.11:358][491]BlueprintEditorCompileResults: Info [3215.75] Compile of Tree successful! [in 128 ms]
+[2016.01.21-20.28.12:431][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.28.12:431][587]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:28:12 AM)
+[2016.01.21-20.28.12:432][587]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.28.12:433][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001581s)
+[2016.01.21-20.28.12:434][587]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.28.12:434][587]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2016.01.21-20.28.12:434][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002592s)
+[2016.01.21-20.28.12:470][587]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.28.12:483][587]LogInit: FAudioDevice initialized.
+[2016.01.21-20.28.12:521][587]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.28.12:525][587]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.28.12
+[2016.01.21-20.28.12:525][587]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.28.12:525][587]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.28.12:528][587]LogWorld: Bringing up level for play took: 0.005227
+[2016.01.21-20.28.12:539][587]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.1
+[2016.01.21-20.28.22:469][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057943C34C0
+[2016.01.21-20.28.57:178][  2]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.28.57:298][  2]BlueprintEditorCompileResults: Info [3261.69] Compile of Tree successful! [in 119 ms]
+[2016.01.21-20.28.58:384][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.28.58:384][ 93]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:28:58 AM)
+[2016.01.21-20.28.58:384][ 93]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.28.58:386][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001624s)
+[2016.01.21-20.28.58:386][ 93]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.28.58:386][ 93]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2016.01.21-20.28.58:387][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002440s)
+[2016.01.21-20.28.58:421][ 93]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.28.58:436][ 93]LogInit: FAudioDevice initialized.
+[2016.01.21-20.28.58:473][ 93]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.28.58:477][ 93]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.28.58
+[2016.01.21-20.28.58:477][ 93]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.28.58:477][ 93]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.28.58:480][ 93]LogWorld: Bringing up level for play took: 0.005060
+[2016.01.21-20.28.58:492][ 93]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.052
+[2016.01.21-20.29.00:107][199]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057E600BC40
+[2016.01.21-20.29.42:365][670]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.29.42:464][670]BlueprintEditorCompileResults: Info [3306.86] Compile of Tree successful! [in 97 ms]
+[2016.01.21-20.29.43:644][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.29.43:644][785]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:29:43 AM)
+[2016.01.21-20.29.43:644][785]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.29.43:646][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001549s)
+[2016.01.21-20.29.43:646][785]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.29.43:646][785]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2016.01.21-20.29.43:646][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002376s)
+[2016.01.21-20.29.43:681][785]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.29.43:693][785]LogInit: FAudioDevice initialized.
+[2016.01.21-20.29.43:730][785]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.29.43:733][785]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.29.43
+[2016.01.21-20.29.43:733][785]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.29.43:733][785]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.29.43:736][785]LogWorld: Bringing up level for play took: 0.004865
+[2016.01.21-20.29.43:763][785]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.676
+[2016.01.21-20.29.50:027][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057948A9440
+[2016.01.21-20.30.14:903][793]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.30.15:031][793]BlueprintEditorCompileResults: Info [3339.43] Compile of Tree successful! [in 128 ms]
+[2016.01.21-20.30.16:076][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.30.16:076][859]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:30:16 AM)
+[2016.01.21-20.30.16:076][859]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.30.16:079][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002408s)
+[2016.01.21-20.30.16:080][859]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.30.16:080][859]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2016.01.21-20.30.16:080][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003539s)
+[2016.01.21-20.30.16:133][859]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.30.16:154][859]LogInit: FAudioDevice initialized.
+[2016.01.21-20.30.16:214][859]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.30.16:228][859]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.30.16
+[2016.01.21-20.30.16:229][859]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.30.16:230][859]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.30.16:238][859]LogWorld: Bringing up level for play took: 0.020457
+[2016.01.21-20.30.16:274][859]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.166
+[2016.01.21-20.30.19:944][139]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000058057EEA20
+[2016.01.21-20.30.24:420][556]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.30.24:519][556]BlueprintEditorCompileResults: Info [3348.92] Compile of Tree successful! [in 98 ms]
+[2016.01.21-20.30.25:567][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.30.25:567][626]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:30:25 AM)
+[2016.01.21-20.30.25:567][626]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.30.25:569][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001581s)
+[2016.01.21-20.30.25:570][626]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.30.25:570][626]LogPlayLevel: PIE: World Init took: (0.000624s)
+[2016.01.21-20.30.25:570][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002371s)
+[2016.01.21-20.30.25:606][626]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.30.25:618][626]LogInit: FAudioDevice initialized.
+[2016.01.21-20.30.25:658][626]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.30.25:667][626]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.30.25
+[2016.01.21-20.30.25:667][626]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.30.25:667][626]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.30.25:674][626]LogWorld: Bringing up level for play took: 0.014190
+[2016.01.21-20.30.25:700][626]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.739
+[2016.01.21-20.30.33:002][194]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005795FE9B20
+[2016.01.21-20.30.55:144][616]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.30.55:246][616]BlueprintEditorCompileResults: Info [3379.64] Compile of Tree successful! [in 101 ms]
+[2016.01.21-20.30.56:217][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.30.56:217][665]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:30:56 AM)
+[2016.01.21-20.30.56:217][665]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.30.56:220][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002539s)
+[2016.01.21-20.30.56:220][665]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.30.56:221][665]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2016.01.21-20.30.56:221][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003774s)
+[2016.01.21-20.30.56:256][665]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.30.56:268][665]LogInit: FAudioDevice initialized.
+[2016.01.21-20.30.56:303][665]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.30.56:306][665]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.30.56
+[2016.01.21-20.30.56:306][665]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.30.56:307][665]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.30.56:309][665]LogWorld: Bringing up level for play took: 0.005077
+[2016.01.21-20.30.56:328][665]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.111
+[2016.01.21-20.30.59:719][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005789D696C0
+[2016.01.21-20.31.05:065][470]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.31.05:165][470]BlueprintEditorCompileResults: Info [3389.56] Compile of Tree successful! [in 99 ms]
+[2016.01.21-20.31.05:953][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.31.05:953][520]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:31:05 AM)
+[2016.01.21-20.31.05:953][520]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.31.05:955][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001598s)
+[2016.01.21-20.31.05:955][520]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.31.05:955][520]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2016.01.21-20.31.05:955][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002377s)
+[2016.01.21-20.31.05:991][520]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.31.06:003][520]LogInit: FAudioDevice initialized.
+[2016.01.21-20.31.06:041][520]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.31.06:045][520]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.31.06
+[2016.01.21-20.31.06:045][520]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.31.06:045][520]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.31.06:048][520]LogWorld: Bringing up level for play took: 0.005447
+[2016.01.21-20.31.06:058][520]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.381
+[2016.01.21-20.31.10:234][848]LogBlueprintUserMessages: [Resource_C_1] Sun
+[2016.01.21-20.31.11:551][954]LogBlueprintUserMessages: [Resource_C_4] Air
+[2016.01.21-20.31.12:821][ 54]LogBlueprintUserMessages: [Resource_C_5] Water
+[2016.01.21-20.31.15:301][248]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005795B9F920
+[2016.01.21-20.32.04:344][639]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.32.04:450][639]BlueprintEditorCompileResults: Info [3448.85] Compile of Tree successful! [in 105 ms]
+[2016.01.21-20.33.05:663][271]LogEditorTransaction: Undo Paste clipboard contents
+[2016.01.21-20.33.11:713][902]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2846 or K2Node_CallFunction /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2846
+[2016.01.21-20.33.11:713][902]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2846.EdGraphPin_1251) from referencer (EdGraphPin /Game/Blueprints/Tree.Tree:EventGraph.K2Node_VariableGet_230.EdGraphPin_808).  Import failed...
+[2016.01.21-20.33.11:713][902]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2846.EdGraphPin_1251''
+[2016.01.21-20.33.11:713][902]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_3454.EdGraphPin_1415) from referencer (EdGraphPin /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2846.EdGraphPin_1249).  Import failed...
+[2016.01.21-20.33.11:713][902]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3454.EdGraphPin_1415''
+[2016.01.21-20.33.11:714][902]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2847 or K2Node_CallFunction /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2847
+[2016.01.21-20.33.11:714][902]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2847.EdGraphPin_1263) from referencer (EdGraphPin /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2846.EdGraphPin_1252).  Import failed...
+[2016.01.21-20.33.11:714][902]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2847.EdGraphPin_1263''
+[2016.01.21-20.33.11:715][902]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2848 or K2Node_CallFunction /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2848
+[2016.01.21-20.33.11:715][902]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2848.EdGraphPin_1272) from referencer (EdGraphPin /Game/Blueprints/Tree.Tree:EventGraph.K2Node_VariableGet_231.EdGraphPin_754).  Import failed...
+[2016.01.21-20.33.11:715][902]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2848.EdGraphPin_1272''
+[2016.01.21-20.33.11:715][902]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_3453.EdGraphPin_1403) from referencer (EdGraphPin /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2848.EdGraphPin_1270).  Import failed...
+[2016.01.21-20.33.11:715][902]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3453.EdGraphPin_1403''
+[2016.01.21-20.33.11:716][902]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2849 or K2Node_CallFunction /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2849
+[2016.01.21-20.33.11:716][902]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2849.EdGraphPin_1284) from referencer (EdGraphPin /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2848.EdGraphPin_1273).  Import failed...
+[2016.01.21-20.33.11:716][902]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2849.EdGraphPin_1284''
+[2016.01.21-20.33.11:716][902]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2765 or K2Node_CallFunction /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2765
+[2016.01.21-20.33.11:717][902]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2765 or K2Node_CallFunction /Game/Blueprints/Resource.Resource:ExecuteUbergraph_Resource.K2Node_CallFunction_2765
+[2016.01.21-20.33.11:717][902]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2765.EdGraphPin_1293) from referencer (EdGraphPin /Game/Blueprints/Tree.Tree:EventGraph.K2Node_VariableGet_118.EdGraphPin_781).  Import failed...
+[2016.01.21-20.33.11:717][902]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2765.EdGraphPin_1293''
+[2016.01.21-20.33.11:717][902]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_3455.EdGraphPin_1427) from referencer (EdGraphPin /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2765.EdGraphPin_1291).  Import failed...
+[2016.01.21-20.33.11:717][902]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3455.EdGraphPin_1427''
+[2016.01.21-20.33.11:717][902]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2824 or K2Node_CallFunction /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2824
+[2016.01.21-20.33.11:717][902]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2824.EdGraphPin_1305) from referencer (EdGraphPin /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2765.EdGraphPin_1294).  Import failed...
+[2016.01.21-20.33.11:717][902]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2824.EdGraphPin_1305''
+[2016.01.21-20.33.11:718][902]LogBlueprint:Warning: [Tree] CreatePinForVariable: 'TextComponent' variable not found. Base class was probably changed.
+[2016.01.21-20.33.11:720][902]LogBlueprint:Warning: [Tree] CreatePinForVariable: 'TextComponent' variable not found. Base class was probably changed.
+[2016.01.21-20.33.11:720][902]LogBlueprint:Warning: [Tree] CreatePinForVariable: 'TextComponent' variable not found. Base class was probably changed.
+[2016.01.21-20.33.20:962][975]LogEditorTransaction: Undo Delete current selection
+[2016.01.21-20.33.31:497][107]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.33.31:510][107]LogBlueprint:Warning: [compiler Tree] Warning Could not find a variable named "TextComponent" in 'Tree_C'.
+Make sure 'Tree_C' has been compiled for  Get TextComponent 
+[2016.01.21-20.33.31:510][107]LogBlueprint:Warning: [compiler Tree] Warning Could not find a variable named "TextComponent" in 'Tree_C'.
+Make sure 'Tree_C' has been compiled for  Get TextComponent 
+[2016.01.21-20.33.31:510][107]LogBlueprint:Warning: [compiler Tree] Warning Could not find a variable named "TextComponent" in 'Tree_C'.
+Make sure 'Tree_C' has been compiled for  Get TextComponent 
+[2016.01.21-20.33.31:615][107]LogBlueprint:Warning: [compiler Tree] Warning [3536.01] Compile of Tree successful, but with 3 Warning(s) [in 116 ms]
+[2016.01.21-20.33.31:615][107]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "TextComponent" in 'Tree_C'.
+Make sure 'Tree_C' has been compiled for  Get TextComponent 
+[2016.01.21-20.33.31:615][107]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "TextComponent" in 'Tree_C'.
+Make sure 'Tree_C' has been compiled for  Get TextComponent 
+[2016.01.21-20.33.31:615][107]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "TextComponent" in 'Tree_C'.
+Make sure 'Tree_C' has been compiled for  Get TextComponent 
+[2016.01.21-20.33.31:615][107]BlueprintEditorCompileResults:Warning: Warning [3536.01] Compile of Tree successful, but with 3 Warning(s) [in 116 ms]
+[2016.01.21-20.34.27:054][470]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.34.27:137][470]BlueprintEditorCompileResults: Info [3591.53] Compile of Tree successful! [in 82 ms]
+[2016.01.21-20.34.27:828][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.34.27:828][549]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:34:27 AM)
+[2016.01.21-20.34.27:828][549]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.34.27:830][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001354s)
+[2016.01.21-20.34.27:830][549]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.34.27:830][549]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2016.01.21-20.34.27:831][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002221s)
+[2016.01.21-20.34.27:862][549]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.34.27:873][549]LogInit: FAudioDevice initialized.
+[2016.01.21-20.34.27:912][549]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.34.27:915][549]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.34.27
+[2016.01.21-20.34.27:915][549]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.34.27:915][549]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.34.27:917][549]LogWorld: Bringing up level for play took: 0.004471
+[2016.01.21-20.34.27:927][549]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.512
+[2016.01.21-20.34.33:015][963]LogBlueprintUserMessages: [Resource_C_1] Sun
+[2016.01.21-20.34.35:172][130]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005785901D00
+[2016.01.21-20.34.44:896][234]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.34.44:999][234]BlueprintEditorCompileResults: Info [3609.39] Compile of Tree successful! [in 102 ms]
+[2016.01.21-20.34.46:191][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.34.46:191][364]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:34:46 AM)
+[2016.01.21-20.34.46:191][364]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.34.46:193][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001655s)
+[2016.01.21-20.34.46:193][364]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.34.46:193][364]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2016.01.21-20.34.46:194][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002523s)
+[2016.01.21-20.34.46:230][364]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.34.46:242][364]LogInit: FAudioDevice initialized.
+[2016.01.21-20.34.46:287][364]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.34.46:298][364]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.34.46
+[2016.01.21-20.34.46:299][364]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.34.46:299][364]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.34.46:308][364]LogWorld: Bringing up level for play took: 0.016981
+[2016.01.21-20.34.46:340][364]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.099
+[2016.01.21-20.34.50:325][718]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000058168A8720
+[2016.01.21-20.35.33:491][569]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.35.33:581][569]BlueprintEditorCompileResults: Info [3657.98] Compile of Tree successful! [in 90 ms]
+[2016.01.21-20.35.34:323][652]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.01.21-20.35.34:330][652]LogPlayLevel: [PlayLevel] Compiling Resource before play...
+[2016.01.21-20.35.34:404][652]LogPlayLevel: PlayLevel: Blueprint regeneration took 80 ms (1 blueprints)
+[2016.01.21-20.35.34:429][652]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:35:34 AM)
+[2016.01.21-20.35.34:429][652]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.35.34:431][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001304s)
+[2016.01.21-20.35.34:431][652]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.35.34:431][652]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2016.01.21-20.35.34:431][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.001962s)
+[2016.01.21-20.35.34:474][652]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.35.34:497][652]LogInit: FAudioDevice initialized.
+[2016.01.21-20.35.34:546][652]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.35.34:553][652]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.35.34
+[2016.01.21-20.35.34:553][652]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.35.34:553][652]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.35.34:559][652]LogWorld: Bringing up level for play took: 0.010720
+[2016.01.21-20.35.34:582][652]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.143
+[2016.01.21-20.35.38:087][912]LogBlueprintUserMessages: [Resource_C_1] Sun
+[2016.01.21-20.35.41:612][144]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057EBEC1620
+[2016.01.21-20.35.48:324][916]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.35.48:475][916]BlueprintEditorCompileResults: Info [3672.87] Compile of Tree successful! [in 150 ms]
+[2016.01.21-20.35.49:311][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.35.49:311][  7]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:35:49 AM)
+[2016.01.21-20.35.49:311][  7]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.35.49:314][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002356s)
+[2016.01.21-20.35.49:315][  7]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.35.49:315][  7]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2016.01.21-20.35.49:315][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003426s)
+[2016.01.21-20.35.49:362][  7]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.35.49:379][  7]LogInit: FAudioDevice initialized.
+[2016.01.21-20.35.49:426][  7]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.35.49:431][  7]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.35.49
+[2016.01.21-20.35.49:432][  7]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.35.49:432][  7]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.35.49:436][  7]LogWorld: Bringing up level for play took: 0.008658
+[2016.01.21-20.35.49:458][  7]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 1.019
+[2016.01.21-20.35.54:643][385]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000058199462A0
+[2016.01.21-20.36.00:732][ 64]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.36.00:875][ 64]BlueprintEditorCompileResults: Info [3685.27] Compile of Tree successful! [in 142 ms]
+[2016.01.21-20.36.01:660][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.36.01:660][147]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:36:01 AM)
+[2016.01.21-20.36.01:660][147]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.36.01:662][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002306s)
+[2016.01.21-20.36.01:663][147]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.36.01:663][147]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2016.01.21-20.36.01:663][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003502s)
+[2016.01.21-20.36.01:711][147]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.36.01:729][147]LogInit: FAudioDevice initialized.
+[2016.01.21-20.36.01:774][147]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.36.01:779][147]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.36.01
+[2016.01.21-20.36.01:779][147]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.36.01:779][147]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.36.01:785][147]LogWorld: Bringing up level for play took: 0.009865
+[2016.01.21-20.36.01:815][147]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.625
+[2016.01.21-20.36.06:185][449]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005819CF4400
+[2016.01.21-20.36.11:152][ 11]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.36.11:297][ 11]BlueprintEditorCompileResults: Info [3695.69] Compile of Tree successful! [in 144 ms]
+[2016.01.21-20.36.12:727][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.36.12:727][161]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:36:12 AM)
+[2016.01.21-20.36.12:727][161]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.36.12:730][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002887s)
+[2016.01.21-20.36.12:731][161]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.36.12:731][161]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2016.01.21-20.36.12:731][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.004135s)
+[2016.01.21-20.36.12:786][161]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.36.12:808][161]LogInit: FAudioDevice initialized.
+[2016.01.21-20.36.12:857][161]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.36.12:865][161]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.36.12
+[2016.01.21-20.36.12:865][161]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.36.12:866][161]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.36.12:870][161]LogWorld: Bringing up level for play took: 0.010308
+[2016.01.21-20.36.12:895][161]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.455
+[2016.01.21-20.36.16:968][444]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005814EF0B80
+[2016.01.21-20.36.27:244][632]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.36.27:383][632]BlueprintEditorCompileResults: Info [3711.78] Compile of Tree successful! [in 138 ms]
+[2016.01.21-20.36.29:257][846]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.36.29:258][846]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:36:29 AM)
+[2016.01.21-20.36.29:258][846]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.36.29:260][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002326s)
+[2016.01.21-20.36.29:261][846]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.36.29:261][846]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2016.01.21-20.36.29:261][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003365s)
+[2016.01.21-20.36.29:309][846]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.36.29:327][846]LogInit: FAudioDevice initialized.
+[2016.01.21-20.36.29:374][846]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.36.29:386][846]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.36.29
+[2016.01.21-20.36.29:386][846]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.36.29:386][846]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.36.29:394][846]LogWorld: Bringing up level for play took: 0.015992
+[2016.01.21-20.36.29:424][846]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.984
+[2016.01.21-20.36.32:713][ 72]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000058057C7240
+[2016.01.21-20.39.20:035][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ExampleMap" FILE="E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.01.21-20.39.20:492][431]LogSavePackage: Save=50.785446ms
+[2016.01.21-20.39.20:493][431]LogSavePackage: Moving 'E:/Growth/Saved/ExampleMap_Auto45682AB0F4B8C8768C9BEDF91CCC47A81.tmp' to 'E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto4.umap'
+[2016.01.21-20.39.20:495][431]LogSavePackage: Total save time: 80.650765ms
+[2016.01.21-20.39.20:495][431]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto4.umap
+[2016.01.21-20.39.20:573][431]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ExampleMap' took 0.586
+[2016.01.21-20.39.20:573][431]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.586
+[2016.01.21-20.39.20:586][431]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Resource] ([1] browsable assets)...
+[2016.01.21-20.39.20:586][431]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Resource]
+[2016.01.21-20.39.20:586][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Resource" FILE="E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-20.39.20:844][431]LogSavePackage: Save=182.640503ms
+[2016.01.21-20.39.20:844][431]LogSavePackage: Moving 'E:/Growth/Saved/Resource_Auto4220919BC459F5774D2287D8F41BC794E.tmp' to 'E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto4.uasset'
+[2016.01.21-20.39.20:846][431]LogSavePackage: Total save time: 214.020889ms
+[2016.01.21-20.39.20:846][431]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto4.uasset
+[2016.01.21-20.39.20:851][431]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tree] ([1] browsable assets)...
+[2016.01.21-20.39.20:851][431]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tree]
+[2016.01.21-20.39.20:851][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tree" FILE="E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-20.39.21:005][431]LogSavePackage: Save=92.692024ms
+[2016.01.21-20.39.21:005][431]LogSavePackage: Moving 'E:/Growth/Saved/Tree_Auto4BD5CA54C46C192F74C8DE6AEC2EE87FD.tmp' to 'E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto4.uasset'
+[2016.01.21-20.39.21:007][431]LogSavePackage: Total save time: 111.306384ms
+[2016.01.21-20.39.21:007][431]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto4.uasset
+[2016.01.21-20.39.21:007][431]LogFileHelpers: Auto-saving content packages took 0.431
+[2016.01.21-20.42.43:877][249]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.01.21-20.42.43:896][249]LogPlayLevel: [PlayLevel] Compiling Resource before play...
+[2016.01.21-20.42.44:022][249]LogPlayLevel: PlayLevel: Blueprint regeneration took 145 ms (1 blueprints)
+[2016.01.21-20.42.44:063][249]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:42:44 AM)
+[2016.01.21-20.42.44:063][249]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.42.44:065][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002369s)
+[2016.01.21-20.42.44:066][249]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.42.44:067][249]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2016.01.21-20.42.44:067][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003714s)
+[2016.01.21-20.42.44:148][249]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.42.44:174][249]LogInit: FAudioDevice initialized.
+[2016.01.21-20.42.44:228][249]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.42.44:235][249]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.42.44
+[2016.01.21-20.42.44:236][249]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.42.44:236][249]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.42.44:242][249]LogWorld: Bringing up level for play took: 0.011334
+[2016.01.21-20.42.44:277][249]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.163
+[2016.01.21-20.42.47:296][435]LogBlueprintUserMessages: [Resource_C_1] Sun
+[2016.01.21-20.42.50:344][637]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000578BC27920
+[2016.01.21-20.43.37:646][847]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2847 or K2Node_CallFunction /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2847
+[2016.01.21-20.43.37:646][847]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2847 or K2Node_CallFunction /Game/Blueprints/Tree.Tree:IncrementResource.K2Node_CallFunction_2847
+[2016.01.21-20.43.37:646][847]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Tree.Tree:EventGraph.K2Node_VariableGet_848 or K2Node_VariableGet /Game/Blueprints/Tree.Tree:IncrementResource.K2Node_VariableGet_848
+[2016.01.21-20.43.37:648][847]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2849 or K2Node_CallFunction /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2849
+[2016.01.21-20.43.37:648][847]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2849 or K2Node_CallFunction /Game/Blueprints/Tree.Tree:IncrementResource.K2Node_CallFunction_2849
+[2016.01.21-20.43.37:648][847]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Tree.Tree:EventGraph.K2Node_VariableGet_850 or K2Node_VariableGet /Game/Blueprints/Tree.Tree:IncrementResource.K2Node_VariableGet_850
+[2016.01.21-20.43.37:650][847]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2824 or K2Node_CallFunction /Game/Blueprints/Tree.Tree:EventGraph.K2Node_CallFunction_2824
+[2016.01.21-20.43.37:650][847]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Resource.Resource:EventGraph.K2Node_CallFunction_2824 or K2Node_CallFunction /Game/Blueprints/Tree.Tree:IncrementResource.K2Node_CallFunction_2824
+[2016.01.21-20.43.37:650][847]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Tree.Tree:EventGraph.K2Node_VariableGet_852 or K2Node_VariableGet /Game/Blueprints/Tree.Tree:IncrementResource.K2Node_VariableGet_852
+[2016.01.21-20.44.49:166][456]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.44.49:355][456]BlueprintEditorCompileResults: Info [4213.75] Compile of Tree successful! [in 189 ms]
+[2016.01.21-20.44.52:722][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.44.52:723][837]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:44:52 AM)
+[2016.01.21-20.44.52:723][837]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.44.52:725][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002316s)
+[2016.01.21-20.44.52:726][837]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.44.52:726][837]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2016.01.21-20.44.52:726][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003518s)
+[2016.01.21-20.44.52:777][837]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.44.52:796][837]LogInit: FAudioDevice initialized.
+[2016.01.21-20.44.52:843][837]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.44.52:849][837]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.44.52
+[2016.01.21-20.44.52:850][837]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.44.52:850][837]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.44.52:854][837]LogWorld: Bringing up level for play took: 0.007586
+[2016.01.21-20.44.52:874][837]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.434
+[2016.01.21-20.44.57:866][175]LogBlueprintUserMessages: [Resource_C_1] Sun
+[2016.01.21-20.44.59:673][299]LogBlueprintUserMessages: [Resource_C_4] Air
+[2016.01.21-20.45.00:432][350]LogBlueprintUserMessages: [Resource_C_5] Water
+[2016.01.21-20.45.01:596][419]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000582577F9C0
+[2016.01.21-20.45.12:375][639]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.45.12:528][639]BlueprintEditorCompileResults: Info [4236.92] Compile of Tree successful! [in 152 ms]
+[2016.01.21-20.45.13:730][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.45.13:730][768]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:45:13 AM)
+[2016.01.21-20.45.13:730][768]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.45.13:732][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002313s)
+[2016.01.21-20.45.13:733][768]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.45.13:733][768]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2016.01.21-20.45.13:733][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003370s)
+[2016.01.21-20.45.13:781][768]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.45.13:800][768]LogInit: FAudioDevice initialized.
+[2016.01.21-20.45.13:854][768]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.45.13:868][768]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.45.13
+[2016.01.21-20.45.13:868][768]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.45.13:869][768]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.45.13:877][768]LogWorld: Bringing up level for play took: 0.018985
+[2016.01.21-20.45.13:913][768]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.526
+[2016.01.21-20.45.15:255][851]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000581B2C74C0
+[2016.01.21-20.47.41:625][771]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.47.41:811][771]BlueprintEditorCompileResults: Info [4386.21] Compile of Tree successful! [in 185 ms]
+[2016.01.21-20.47.42:640][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.47.42:641][845]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:47:42 AM)
+[2016.01.21-20.47.42:641][845]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.47.42:643][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002334s)
+[2016.01.21-20.47.42:644][845]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.47.42:644][845]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2016.01.21-20.47.42:644][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003461s)
+[2016.01.21-20.47.42:693][845]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.47.42:711][845]LogInit: FAudioDevice initialized.
+[2016.01.21-20.47.42:756][845]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.47.42:762][845]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.47.42
+[2016.01.21-20.47.42:762][845]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.47.42:762][845]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.47.42:766][845]LogWorld: Bringing up level for play took: 0.008027
+[2016.01.21-20.47.42:789][845]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.349
+[2016.01.21-20.47.44:520][946]LogBlueprintUserMessages: [Resource_C_1] Sun
+[2016.01.21-20.47.45:756][ 13]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000581F19D6C0
+[2016.01.21-20.48.04:085][ 50]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.48.04:260][ 50]BlueprintEditorCompileResults: Info [4408.66] Compile of Tree successful! [in 174 ms]
+[2016.01.21-20.48.05:195][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.48.05:195][154]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:48:05 AM)
+[2016.01.21-20.48.05:195][154]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.48.05:197][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002282s)
+[2016.01.21-20.48.05:198][154]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.48.05:198][154]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2016.01.21-20.48.05:198][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003354s)
+[2016.01.21-20.48.05:267][154]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.48.05:299][154]LogInit: FAudioDevice initialized.
+[2016.01.21-20.48.05:348][154]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.48.05:356][154]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.48.05
+[2016.01.21-20.48.05:356][154]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.48.05:356][154]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.48.05:361][154]LogWorld: Bringing up level for play took: 0.010549
+[2016.01.21-20.48.05:382][154]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.942
+[2016.01.21-20.48.06:980][268]LogBlueprintUserMessages: [Resource_C_1] Sun
+[2016.01.21-20.48.07:993][343]LogBlueprintUserMessages: [Resource_C_5] Water
+[2016.01.21-20.48.08:660][390]LogBlueprintUserMessages: [Resource_C_4] Air
+[2016.01.21-20.48.09:031][409]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005791F03420
+[2016.01.21-20.48.19:980][604]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.48.20:152][604]BlueprintEditorCompileResults: Info [4424.55] Compile of Tree successful! [in 172 ms]
+[2016.01.21-20.48.21:701][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.48.21:701][760]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:48:21 AM)
+[2016.01.21-20.48.21:701][760]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.48.21:704][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002252s)
+[2016.01.21-20.48.21:705][760]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.48.21:705][760]LogPlayLevel: PIE: World Init took: (0.001257s)
+[2016.01.21-20.48.21:705][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003728s)
+[2016.01.21-20.48.21:752][760]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.48.21:770][760]LogInit: FAudioDevice initialized.
+[2016.01.21-20.48.21:815][760]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.48.21:820][760]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-12.48.21
+[2016.01.21-20.48.21:821][760]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.48.21:821][760]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.48.21:825][760]LogWorld: Bringing up level for play took: 0.007669
+[2016.01.21-20.48.21:848][760]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.591
+[2016.01.21-20.48.23:225][846]LogBlueprintUserMessages: [Resource_C_1] Sun
+[2016.01.21-20.48.24:069][904]LogBlueprintUserMessages: [Resource_C_5] Water
+[2016.01.21-20.48.25:349][982]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005819944FE0
+[2016.01.21-20.51.54:864][692]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.51.55:172][692]BlueprintEditorCompileResults: Info [4639.57] Compile of Tree successful! [in 308 ms]
+[2016.01.21-20.55.31:477][654]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.55.31:684][654]BlueprintEditorCompileResults: Info [4856.08] Compile of Resource successful! [in 207 ms]
+[2016.01.21-20.55.32:929][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.55.32:929][726]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:55:32 AM)
+[2016.01.21-20.55.32:929][726]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.55.32:932][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002548s)
+[2016.01.21-20.55.32:933][726]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.55.32:933][726]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2016.01.21-20.55.32:933][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003791s)
+[2016.01.21-20.55.32:986][726]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.55.33:032][726]LogInit: FAudioDevice initialized.
+[2016.01.21-20.55.33:093][726]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.55.33:107][726]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.55.33
+[2016.01.21-20.55.33:107][726]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.55.33:108][726]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.55.33:116][726]LogWorld: Bringing up level for play took: 0.019258
+[2016.01.21-20.55.33:138][726]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.698
+[2016.01.21-20.55.34:553][787]LogBlueprintUserMessages: [Resource_C_0] Sun
+[2016.01.21-20.55.36:591][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000058360EC5E0
+[2016.01.21-20.56.42:663][822]BlueprintLog: New page: Compile Resource
+[2016.01.21-20.56.42:858][822]BlueprintEditorCompileResults: Info [4927.25] Compile of Resource successful! [in 195 ms]
+[2016.01.21-20.56.43:753][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.56.43:753][873]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:56:43 AM)
+[2016.01.21-20.56.43:753][873]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.56.43:756][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002357s)
+[2016.01.21-20.56.43:756][873]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.56.43:757][873]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2016.01.21-20.56.43:757][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003490s)
+[2016.01.21-20.56.43:807][873]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.56.43:841][873]LogInit: FAudioDevice initialized.
+[2016.01.21-20.56.43:903][873]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.56.43:916][873]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.56.43
+[2016.01.21-20.56.43:916][873]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.56.43:917][873]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.56.43:925][873]LogWorld: Bringing up level for play took: 0.019129
+[2016.01.21-20.56.43:946][873]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.494
+[2016.01.21-20.56.45:161][938]LogBlueprintUserMessages: [Resource_C_0] Sun
+[2016.01.21-20.56.47:881][ 92]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005834752200
+[2016.01.21-20.57.49:633][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ExampleMap" FILE="E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.01.21-20.57.50:085][758]LogSavePackage: Save=59.582600ms
+[2016.01.21-20.57.50:085][758]LogSavePackage: Moving 'E:/Growth/Saved/ExampleMap_Auto535745E0048EBF022027239BF68E23073.tmp' to 'E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto5.umap'
+[2016.01.21-20.57.50:087][758]LogSavePackage: Total save time: 90.413887ms
+[2016.01.21-20.57.50:087][758]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto5.umap
+[2016.01.21-20.57.50:146][758]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ExampleMap' took 0.561
+[2016.01.21-20.57.50:146][758]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.561
+[2016.01.21-20.57.50:160][758]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Resource] ([1] browsable assets)...
+[2016.01.21-20.57.50:160][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Resource]
+[2016.01.21-20.57.50:160][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Resource" FILE="E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-20.57.50:399][758]LogSavePackage: Save=185.314575ms
+[2016.01.21-20.57.50:399][758]LogSavePackage: Moving 'E:/Growth/Saved/Resource_Auto5814D82C94CE2025A30B334819F883462.tmp' to 'E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto5.uasset'
+[2016.01.21-20.57.50:400][758]LogSavePackage: Total save time: 217.945956ms
+[2016.01.21-20.57.50:400][758]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto5.uasset
+[2016.01.21-20.57.50:406][758]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tree] ([1] browsable assets)...
+[2016.01.21-20.57.50:406][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tree]
+[2016.01.21-20.57.50:406][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tree" FILE="E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-20.57.50:594][758]LogSavePackage: Save=120.599350ms
+[2016.01.21-20.57.50:594][758]LogSavePackage: Moving 'E:/Growth/Saved/Tree_Auto592837342424157C548124E84E64AB573.tmp' to 'E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto5.uasset'
+[2016.01.21-20.57.50:596][758]LogSavePackage: Total save time: 152.663860ms
+[2016.01.21-20.57.50:596][758]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto5.uasset
+[2016.01.21-20.57.50:596][758]LogFileHelpers: Auto-saving content packages took 0.446
+[2016.01.21-20.58.13:791][125]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.58.14:185][125]BlueprintEditorCompileResults: Info [5018.58] Compile of Tree successful! [in 394 ms]
+[2016.01.21-20.58.17:670][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.58.17:670][331]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:58:17 AM)
+[2016.01.21-20.58.17:670][331]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.58.17:672][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002294s)
+[2016.01.21-20.58.17:673][331]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.58.17:673][331]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2016.01.21-20.58.17:673][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003434s)
+[2016.01.21-20.58.17:723][331]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.58.17:742][331]LogInit: FAudioDevice initialized.
+[2016.01.21-20.58.17:788][331]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.58.17:797][331]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.58.17
+[2016.01.21-20.58.17:797][331]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.58.17:797][331]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.58.17:801][331]LogWorld: Bringing up level for play took: 0.011024
+[2016.01.21-20.58.17:829][331]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.61
+[2016.01.21-20.58.19:134][404]LogBlueprintUserMessages: [Resource_C_1] Sun
+[2016.01.21-20.58.20:630][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057F4038FE0
+[2016.01.21-20.58.27:806][886]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.01.21-20.58.27:818][886]LogPlayLevel: [PlayLevel] Compiling Tree before play...
+[2016.01.21-20.58.27:932][886]LogPlayLevel: PlayLevel: Blueprint regeneration took 126 ms (2 blueprints)
+[2016.01.21-20.58.27:942][886]LogPlayLevel: [PlayLevel] Compiling Resource before play...
+[2016.01.21-20.58.28:074][886]LogPlayLevel: PlayLevel: Blueprint regeneration took 267 ms (2 blueprints)
+[2016.01.21-20.58.28:117][886]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:58:28 AM)
+[2016.01.21-20.58.28:117][886]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.58.28:120][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002376s)
+[2016.01.21-20.58.28:120][886]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.58.28:120][886]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2016.01.21-20.58.28:121][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003451s)
+[2016.01.21-20.58.28:170][886]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.58.28:188][886]LogInit: FAudioDevice initialized.
+[2016.01.21-20.58.28:235][886]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.58.28:245][886]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.58.28
+[2016.01.21-20.58.28:246][886]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.58.28:246][886]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.58.28:254][886]LogWorld: Bringing up level for play took: 0.016112
+[2016.01.21-20.58.28:278][886]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.162
+[2016.01.21-20.58.30:015][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000058331C2C00
+[2016.01.21-20.58.30:516][999]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.58.30:670][999]BlueprintEditorCompileResults: Info [5035.07] Compile of Tree successful! [in 154 ms]
+[2016.01.21-20.58.31:913][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.21-20.58.31:913][ 69]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 4:58:31 AM)
+[2016.01.21-20.58.31:914][ 69]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-20.58.31:916][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002296s)
+[2016.01.21-20.58.31:917][ 69]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-20.58.31:917][ 69]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2016.01.21-20.58.31:917][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.003326s)
+[2016.01.21-20.58.31:967][ 69]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-20.58.31:985][ 69]LogInit: FAudioDevice initialized.
+[2016.01.21-20.58.32:035][ 69]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-20.58.32:046][ 69]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 60) at 2016.01.21-12.58.32
+[2016.01.21-20.58.32:046][ 69]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.58.32:046][ 69]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-20.58.32:055][ 69]LogWorld: Bringing up level for play took: 0.016373
+[2016.01.21-20.58.32:105][ 69]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap -0.335
+[2016.01.21-20.58.33:529][144]LogBlueprintUserMessages: [Resource_C_4] Air
+[2016.01.21-20.58.35:827][264]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000058397A91C0
+[2016.01.21-20.59.24:816][140]BlueprintLog: New page: Compile Tree
+[2016.01.21-20.59.24:981][140]BlueprintEditorCompileResults: Info [5089.38] Compile of Tree successful! [in 165 ms]
+[2016.01.21-21.00.00:248][226]BlueprintLog: New page: Compile Tree
+[2016.01.21-21.00.00:588][226]BlueprintEditorCompileResults: Info [5124.98] Compile of Tree successful! [in 339 ms]
+[2016.01.21-21.03.57:827][465]BlueprintLog: New page: Compile Resource
+[2016.01.21-21.03.58:006][465]BlueprintEditorCompileResults: Info [5362.40] Compile of Resource successful! [in 178 ms]
+[2016.01.21-21.04.18:983][702]BlueprintLog: New page: Compile Tree
+[2016.01.21-21.04.19:146][702]BlueprintEditorCompileResults: Info [5383.54] Compile of Tree successful! [in 163 ms]
+[2016.01.21-21.04.28:832][276]BlueprintLog: New page: Compile Tree
+[2016.01.21-21.04.29:040][276]BlueprintEditorCompileResults: Info [5393.44] Compile of Tree successful! [in 207 ms]
+[2016.01.21-21.07.05:377][104]Cmd: add sockert
+[2016.01.21-21.07.59:922][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ExampleMap" FILE="E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.01.21-21.08.00:304][966]LogSavePackage: Save=30.984846ms
+[2016.01.21-21.08.00:304][966]LogSavePackage: Moving 'E:/Growth/Saved/ExampleMap_Auto6CCD21F8A4E931CE16AC4438541A3A896.tmp' to 'E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto6.umap'
+[2016.01.21-21.08.00:306][966]LogSavePackage: Total save time: 47.379885ms
+[2016.01.21-21.08.00:306][966]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Maps/ExampleMap_Auto6.umap
+[2016.01.21-21.08.00:346][966]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ExampleMap' took 0.509
+[2016.01.21-21.08.00:346][966]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.509
+[2016.01.21-21.08.00:355][966]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Resource] ([1] browsable assets)...
+[2016.01.21-21.08.00:355][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Resource]
+[2016.01.21-21.08.00:355][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Resource" FILE="E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-21.08.00:572][966]LogSavePackage: Save=166.807983ms
+[2016.01.21-21.08.00:572][966]LogSavePackage: Moving 'E:/Growth/Saved/Resource_Auto65EA10B8F4D2F6A5E4DCE9BBABDD9FB06.tmp' to 'E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto6.uasset'
+[2016.01.21-21.08.00:574][966]LogSavePackage: Total save time: 199.026056ms
+[2016.01.21-21.08.00:574][966]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Blueprints/Resource_Auto6.uasset
+[2016.01.21-21.08.00:579][966]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tree] ([1] browsable assets)...
+[2016.01.21-21.08.00:579][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tree]
+[2016.01.21-21.08.00:580][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tree" FILE="E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-21.08.00:769][966]LogSavePackage: Save=113.215431ms
+[2016.01.21-21.08.00:769][966]LogSavePackage: Moving 'E:/Growth/Saved/Tree_Auto61176A5CE4DE063D6A04EB19A1650ED1B.tmp' to 'E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto6.uasset'
+[2016.01.21-21.08.00:771][966]LogSavePackage: Total save time: 145.598900ms
+[2016.01.21-21.08.00:771][966]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Blueprints/Tree_Auto6.uasset
+[2016.01.21-21.08.00:771][966]LogFileHelpers: Auto-saving content packages took 0.423
+[2016.01.21-21.15.47:027][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Spr_Tree" FILE="E:/Growth/Content/Sprites/Spr_Tree.uasset" SILENT=true
+[2016.01.21-21.15.47:449][286]LogSavePackage: Save=30.023220ms
+[2016.01.21-21.15.47:449][286]LogSavePackage: Moving 'E:/Growth/Saved/Spr_Tree356A8169409DA048F61720A39F769DA1.tmp' to 'E:/Growth/Content/Sprites/Spr_Tree.uasset'
+[2016.01.21-21.15.47:458][286]LogSavePackage: Total save time: 68.882279ms
+[2016.01.21-21.15.47:458][286]LogSavePackage:Display: Finished SavePackage E:/Growth/Content/Sprites/Spr_Tree.uasset
+[2016.01.21-21.25.10:216][546]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:/Growth/Root.png)
+[2016.01.21-21.25.10:218][546]LogTexture:Display: Building textures: Root (BGRA8)
+[2016.01.21-21.26.17:761][ 61]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005848C16CA0
+[2016.01.21-21.26.17:764][ 61]LogMetaData: Removing '/Game/Blueprints/Root.Root:UserConstructionScript.K2Node_FunctionEntry_1099' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2016.01.21-21.26.17:764][ 61]LogMetaData: Removing '/Game/Blueprints/Root.SKEL_Root_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2016.01.21-21.26.17:764][ 61]LogMetaData: Removing '/Game/Blueprints/Root.Root_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2016.01.21-21.26.17:764][ 61]LogMetaData: Removing '/Game/Blueprints/Root.Root:EventGraph.K2Node_Event_1022' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2016.01.21-21.26.17:764][ 61]LogMetaData: Removing '/Game/Blueprints/Root.Root:EventGraph.K2Node_Event_1023' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2016.01.21-21.26.17:764][ 61]LogMetaData: Removing '/Game/Blueprints/Root.Root:EventGraph.K2Node_Event_1024' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2016.01.21-21.26.17:824][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Root" FILE="E:/Growth/Content/Blueprints/Root.uasset" SILENT=true
+[2016.01.21-21.26.17:856][ 61]LogSavePackage: Save=9.402709ms
+[2016.01.21-21.26.17:856][ 61]LogSavePackage: Moving 'E:/Growth/Saved/RootA851A7DC434B66E2F33ACFB7830BA34F.tmp' to 'E:/Growth/Content/Blueprints/Root.uasset'
+[2016.01.21-21.26.17:860][ 61]LogSavePackage: Total save time: 13.909254ms
+[2016.01.21-21.26.17:860][ 61]LogSavePackage:Display: Finished SavePackage E:/Growth/Content/Blueprints/Root.uasset
+[2016.01.21-21.26.51:554][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Spr_Root" FILE="E:/Growth/Content/Sprites/Spr_Root.uasset" SILENT=true
+[2016.01.21-21.26.51:583][ 10]LogSavePackage: Save=6.139651ms
+[2016.01.21-21.26.51:583][ 10]LogSavePackage: Moving 'E:/Growth/Saved/Spr_RootD09EBF2D49196F975DF4C995CAE413DD.tmp' to 'E:/Growth/Content/Sprites/Spr_Root.uasset'
+[2016.01.21-21.26.51:588][ 10]LogSavePackage: Total save time: 11.239909ms
+[2016.01.21-21.26.51:588][ 10]LogSavePackage:Display: Finished SavePackage E:/Growth/Content/Sprites/Spr_Root.uasset
+[2016.01.21-21.29.03:798][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Spr_Tree" FILE="E:/Growth/Content/Sprites/Spr_Tree.uasset" SILENT=true
+[2016.01.21-21.29.04:166][439]LogSavePackage: Save=4.438250ms
+[2016.01.21-21.29.04:166][439]LogSavePackage: Moving 'E:/Growth/Saved/Spr_Tree2596A0694BE2C683BB7A27AA96BF1F69.tmp' to 'E:/Growth/Content/Sprites/Spr_Tree.uasset'
+[2016.01.21-21.29.04:169][439]LogSavePackage: Total save time: 15.296821ms
+[2016.01.21-21.29.04:169][439]LogSavePackage:Display: Finished SavePackage E:/Growth/Content/Sprites/Spr_Tree.uasset
+[2016.01.21-21.29.22:479][600]BlueprintLog: New page: Compile Root
+[2016.01.21-21.29.22:563][600]BlueprintEditorCompileResults: Info [6886.96] Compile of Root successful! [in 83 ms]
+[2016.01.21-21.30.51:910][896]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ExampleMap' took 0.030
+[2016.01.21-21.30.51:916][896]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sprites/Spr_Tree] ([1] browsable assets)...
+[2016.01.21-21.30.51:916][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Spr_Tree]
+[2016.01.21-21.30.51:916][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Spr_Tree" FILE="E:/Growth/Saved/Autosaves/Game/Sprites/Spr_Tree_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-21.30.52:023][896]LogSavePackage: Save=4.250740ms
+[2016.01.21-21.30.52:023][896]LogSavePackage: Moving 'E:/Growth/Saved/Spr_Tree_Auto7CFC5802F4A0A1D53013CE588D056E1A4.tmp' to 'E:/Growth/Saved/Autosaves/Game/Sprites/Spr_Tree_Auto7.uasset'
+[2016.01.21-21.30.52:024][896]LogSavePackage: Total save time: 11.980865ms
+[2016.01.21-21.30.52:024][896]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Sprites/Spr_Tree_Auto7.uasset
+[2016.01.21-21.30.52:028][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Root] ([1] browsable assets)...
+[2016.01.21-21.30.52:030][896]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/Root.Root]
+[2016.01.21-21.30.52:030][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Root]
+[2016.01.21-21.30.52:030][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Root" FILE="E:/Growth/Saved/Autosaves/Game/Sprites/Root_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-21.30.52:083][896]LogSavePackage: Save=2.963439ms
+[2016.01.21-21.30.52:083][896]LogSavePackage: Moving 'E:/Growth/Saved/Root_Auto787920EE74A13F7D36F5A769DC22BF112.tmp' to 'E:/Growth/Saved/Autosaves/Game/Sprites/Root_Auto7.uasset'
+[2016.01.21-21.30.52:084][896]LogSavePackage: Total save time: 4.794713ms
+[2016.01.21-21.30.52:084][896]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Sprites/Root_Auto7.uasset
+[2016.01.21-21.30.52:088][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Root_Sprite" FILE="E:/Growth/Saved/Autosaves/Game/Sprites/Root_Sprite_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-21.30.52:154][896]LogSavePackage: Save=20.379314ms
+[2016.01.21-21.30.52:154][896]LogSavePackage: Moving 'E:/Growth/Saved/Root_Sprite_Auto795E07E02440F026295995F870918FCA5.tmp' to 'E:/Growth/Saved/Autosaves/Game/Sprites/Root_Sprite_Auto7.uasset'
+[2016.01.21-21.30.52:156][896]LogSavePackage: Total save time: 23.078267ms
+[2016.01.21-21.30.52:156][896]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Sprites/Root_Sprite_Auto7.uasset
+[2016.01.21-21.30.52:160][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewBlueprint" FILE="E:/Growth/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-21.30.52:232][896]LogSavePackage: Save=21.569506ms
+[2016.01.21-21.30.52:232][896]LogSavePackage: Moving 'E:/Growth/Saved/NewBlueprint_Auto7AEF9DEEF44FCF4C8BA39CEBE3AA2175C.tmp' to 'E:/Growth/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto7.uasset'
+[2016.01.21-21.30.52:234][896]LogSavePackage: Total save time: 23.504209ms
+[2016.01.21-21.30.52:234][896]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto7.uasset
+[2016.01.21-21.30.52:238][896]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Root] ([1] browsable assets)...
+[2016.01.21-21.30.52:238][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Root]
+[2016.01.21-21.30.52:238][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Root" FILE="E:/Growth/Saved/Autosaves/Game/Blueprints/Root_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-21.30.52:295][896]LogSavePackage: Save=9.544427ms
+[2016.01.21-21.30.52:295][896]LogSavePackage: Moving 'E:/Growth/Saved/Root_Auto75BFECA714355B8F22597A18C47346328.tmp' to 'E:/Growth/Saved/Autosaves/Game/Blueprints/Root_Auto7.uasset'
+[2016.01.21-21.30.52:296][896]LogSavePackage: Total save time: 19.575987ms
+[2016.01.21-21.30.52:296][896]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Blueprints/Root_Auto7.uasset
+[2016.01.21-21.30.52:300][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Spr_Root] ([1] browsable assets)...
+[2016.01.21-21.30.52:310][896]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Spr_Root.Spr_Root]
+[2016.01.21-21.30.52:310][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Spr_Root]
+[2016.01.21-21.30.52:310][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Spr_Root" FILE="E:/Growth/Saved/Autosaves/Game/Sprites/Spr_Root_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2016.01.21-21.30.52:382][896]LogSavePackage: Save=5.749236ms
+[2016.01.21-21.30.52:382][896]LogSavePackage: Moving 'E:/Growth/Saved/Spr_Root_Auto72A8469D1407F1DA61DE86DB20C9F183D.tmp' to 'E:/Growth/Saved/Autosaves/Game/Sprites/Spr_Root_Auto7.uasset'
+[2016.01.21-21.30.52:384][896]LogSavePackage: Total save time: 16.135283ms
+[2016.01.21-21.30.52:384][896]LogSavePackage:Display: Finished SavePackage E:/Growth/Saved/Autosaves/Game/Sprites/Spr_Root_Auto7.uasset
+[2016.01.21-21.30.52:384][896]LogFileHelpers: Auto-saving content packages took 0.473
+[2016.01.21-21.32.18:264][  1]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.01.21-21.32.18:273][  1]LogPlayLevel: [PlayLevel] Compiling Tree before play...
+[2016.01.21-21.32.18:345][  1]LogPlayLevel: PlayLevel: Blueprint regeneration took 81 ms (2 blueprints)
+[2016.01.21-21.32.18:350][  1]LogPlayLevel: [PlayLevel] Compiling Resource before play...
+[2016.01.21-21.32.18:426][  1]LogPlayLevel: PlayLevel: Blueprint regeneration took 162 ms (2 blueprints)
+[2016.01.21-21.32.18:459][  1]PIE: New page: PIE session: ExampleMap (Jan 21, 2016, 5:32:18 AM)
+[2016.01.21-21.32.18:459][  1]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ExampleMap
+[2016.01.21-21.32.18:460][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001367s)
+[2016.01.21-21.32.18:461][  1]LogAIModule: Creating AISystem for world ExampleMap
+[2016.01.21-21.32.18:461][  1]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2016.01.21-21.32.18:461][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ExampleMap.ExampleMap to /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap (0.002153s)
+[2016.01.21-21.32.18:495][  1]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.21-21.32.18:506][  1]LogInit: FAudioDevice initialized.
+[2016.01.21-21.32.18:543][  1]LogWorld: Game class is 'Level_GameMode_C'
+[2016.01.21-21.32.18:546][  1]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap up for play (max tick rate 0) at 2016.01.21-13.32.18
+[2016.01.21-21.32.18:546][  1]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameSession_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-21.32.18:547][  1]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_ExampleMap.ExampleMap:PersistentLevel.GameNetworkManager_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.21-21.32.18:548][  1]LogWorld: Bringing up level for play took: 0.004287
+[2016.01.21-21.32.18:551][  1]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_ExampleMap 0.111
+[2016.01.21-21.32.40:254][563]LogBlueprintUserMessages: [Resource_C_4] Air
+[2016.01.21-21.32.48:076][490]LogBlueprintUserMessages: [Resource_C_1] Sun
+[2016.01.21-21.32.49:202][623]LogBlueprintUserMessages: [Resource_C_5] Water
+[2016.01.21-21.33.01:351][ 32]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057EBEC3060
+[2016.01.21-21.36.56:625][760]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spr_Root)
+[2016.01.21-21.37.19:384][637]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spr_Root)
+[2016.01.21-21.37.34:089][263]LogEditorViewport: Clicking Background
+[2016.01.21-21.37.35:069][378]LogEditorViewport: Clicking on Actor (LMB): Tree_C (Tree)
+[2016.01.21-21.37.38:038][730]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spr_Root)
+[2016.01.21-21.37.42:476][246]Cmd: DELETE
+[2016.01.21-21.37.42:477][246]Cmd: ACTOR DELETE
+[2016.01.21-21.37.42:477][246]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2016.01.21-21.37.42:508][246]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2016.01.21-21.37.51:360][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Spr_Root" FILE="E:/Growth/Content/Sprites/Spr_Root.uasset" SILENT=true
+[2016.01.21-21.37.51:735][299]LogSavePackage: Save=6.248998ms
+[2016.01.21-21.37.51:735][299]LogSavePackage: Moving 'E:/Growth/Saved/Spr_RootDED4FC724B1677601D0C6B9B7927FE88.tmp' to 'E:/Growth/Content/Sprites/Spr_Root.uasset'
+[2016.01.21-21.37.51:739][299]LogSavePackage: Total save time: 19.026484ms
+[2016.01.21-21.37.51:739][299]LogSavePackage:Display: Finished SavePackage E:/Growth/Content/Sprites/Spr_Root.uasset
+[2016.01.21-21.38.13:279][799]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spr_Root)
+[2016.01.21-21.38.16:780][168]EditorErrors: New page: Actor Reattachment
+[2016.01.21-21.38.18:502][372]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spr_Root)
+[2016.01.21-21.38.23:524][918]EditorErrors: New page: Actor Reattachment
+[2016.01.21-21.38.27:207][348]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spr_Root)
+[2016.01.21-21.38.28:487][490]LogEditorViewport: Clicking Background
+[2016.01.21-21.38.29:435][603]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Spr_Root)
+[2016.01.21-21.38.29:878][654]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Spr_Root)
+[2016.01.21-21.38.37:801][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/ExampleMap" FILE="E:/Growth/Content/Maps/ExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.21-21.38.38:197][547]LogSavePackage: Save=16.751894ms
+[2016.01.21-21.38.38:197][547]LogSavePackage: Moving 'E:/Growth/Saved/ExampleMapD0C0E8464D1FAE855DD1C486D4C39D01.tmp' to 'E:/Growth/Content/Maps/ExampleMap.umap'
+[2016.01.21-21.38.38:201][547]LogSavePackage: Total save time: 29.094357ms
+[2016.01.21-21.38.38:201][547]LogSavePackage:Display: Finished SavePackage E:/Growth/Content/Maps/ExampleMap.umap
+[2016.01.21-21.40.07:246][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewBlueprint" FILE="E:/Growth/Content/Blueprints/NewBlueprint.uasset" SILENT=true
+[2016.01.21-21.40.07:612][712]LogSavePackage: Save=18.929768ms
+[2016.01.21-21.40.07:612][712]LogSavePackage: Moving 'E:/Growth/Saved/NewBlueprintE814888F41DD445573A642A8F0056606.tmp' to 'E:/Growth/Content/Blueprints/NewBlueprint.uasset'
+[2016.01.21-21.40.07:616][712]LogSavePackage: Total save time: 23.510527ms
+[2016.01.21-21.40.07:616][712]LogSavePackage:Display: Finished SavePackage E:/Growth/Content/Blueprints/NewBlueprint.uasset
+[2016.01.21-21.40.07:627][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Resource" FILE="E:/Growth/Content/Blueprints/Resource.uasset" SILENT=true
+[2016.01.21-21.40.07:751][712]LogSavePackage: Save=82.890221ms
+[2016.01.21-21.40.07:751][712]LogSavePackage: Moving 'E:/Growth/Saved/Resource293F9253457CC6D812EC2F9E73592CD8.tmp' to 'E:/Growth/Content/Blueprints/Resource.uasset'
+[2016.01.21-21.40.07:755][712]LogSavePackage: Total save time: 97.277522ms
+[2016.01.21-21.40.07:755][712]LogSavePackage:Display: Finished SavePackage E:/Growth/Content/Blueprints/Resource.uasset
+[2016.01.21-21.40.07:766][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Root" FILE="E:/Growth/Content/Blueprints/Root.uasset" SILENT=true
+[2016.01.21-21.40.07:858][712]LogSavePackage: Save=9.552717ms
+[2016.01.21-21.40.07:858][712]LogSavePackage: Moving 'E:/Growth/Saved/RootC24DC19C4A6F4C3C8EB66CB2D299D7FA.tmp' to 'E:/Growth/Content/Blueprints/Root.uasset'
+[2016.01.21-21.40.07:863][712]LogSavePackage: Total save time: 22.603769ms
+[2016.01.21-21.40.07:863][712]LogSavePackage:Display: Finished SavePackage E:/Growth/Content/Blueprints/Root.uasset
+[2016.01.21-21.40.07:869][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tree" FILE="E:/Growth/Content/Blueprints/Tree.uasset" SILENT=true
+[2016.01.21-21.40.07:982][712]LogSavePackage: Save=47.769901ms
+[2016.01.21-21.40.07:982][712]LogSavePackage: Moving 'E:/Growth/Saved/TreeF2CDC9D146AAA85372CF9D8A04EC563A.tmp' to 'E:/Growth/Content/Blueprints/Tree.uasset'
+[2016.01.21-21.40.07:987][712]LogSavePackage: Total save time: 62.610384ms
+[2016.01.21-21.40.07:987][712]LogSavePackage:Display: Finished SavePackage E:/Growth/Content/Blueprints/Tree.uasset
+[2016.01.21-21.40.07:996][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Root" FILE="E:/Growth/Content/Sprites/Root.uasset" SILENT=true
+[2016.01.21-21.40.08:076][712]LogSavePackage: Save=2.662634ms
+[2016.01.21-21.40.08:076][712]LogSavePackage: Moving 'E:/Growth/Saved/RootDEF9BD234EE7918D4209F4B562ED564F.tmp' to 'E:/Growth/Content/Sprites/Root.uasset'
+[2016.01.21-21.40.08:080][712]LogSavePackage: Total save time: 7.010087ms
+[2016.01.21-21.40.08:080][712]LogSavePackage:Display: Finished SavePackage E:/Growth/Content/Sprites/Root.uasset
+[2016.01.21-21.40.08:086][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Root_Sprite" FILE="E:/Growth/Content/Sprites/Root_Sprite.uasset" SILENT=true
+[2016.01.21-21.40.08:185][712]LogSavePackage: Save=43.184803ms
+[2016.01.21-21.40.08:185][712]LogSavePackage: Moving 'E:/Growth/Saved/Root_Sprite64944F4549692E7E4BB3888692B868F3.tmp' to 'E:/Growth/Content/Sprites/Root_Sprite.uasset'
+[2016.01.21-21.40.08:189][712]LogSavePackage: Total save time: 46.950784ms
+[2016.01.21-21.40.08:189][712]LogSavePackage:Display: Finished SavePackage E:/Growth/Content/Sprites/Root_Sprite.uasset
+[2016.01.21-21.40.08:198][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Spr_Tree" FILE="E:/Growth/Content/Sprites/Spr_Tree.uasset" SILENT=true
+[2016.01.21-21.40.08:240][712]LogSavePackage: Save=2.979624ms
+[2016.01.21-21.40.08:240][712]LogSavePackage: Moving 'E:/Growth/Saved/Spr_Tree72D846E04AE1CDBA243B1FB4D557794B.tmp' to 'E:/Growth/Content/Sprites/Spr_Tree.uasset'
+[2016.01.21-21.40.08:244][712]LogSavePackage: Total save time: 17.039277ms
+[2016.01.21-21.40.08:244][712]LogSavePackage:Display: Finished SavePackage E:/Growth/Content/Sprites/Spr_Tree.uasset
+[2016.01.21-21.40.08:382][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.01.21-21.40.08:494][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.01.21-21.40.08:835][713]Cmd: QUIT_EDITOR
+[2016.01.21-21.40.09:715][713]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.21-21.40.09:815][713]LogExit: Preparing to exit.
+[2016.01.21-21.40.10:764][713]LogExit: Editor shut down
+[2016.01.21-21.40.10:765][713]LogExit: Transaction tracking system shut down
+[2016.01.21-21.40.10:774][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057AACA2D40
+[2016.01.21-21.40.10:774][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057ACA93880
+[2016.01.21-21.40.10:774][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057ACC267A0
+[2016.01.21-21.40.10:779][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057D9CA1440
+[2016.01.21-21.40.10:779][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057D9FE5BC0
+[2016.01.21-21.40.10:785][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057E7106FC0
+[2016.01.21-21.40.10:786][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000580165F880
+[2016.01.21-21.40.10:787][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000058591D2840
+[2016.01.21-21.40.10:787][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005848C14360
+[2016.01.21-21.40.10:788][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000057CF8307C0
+[2016.01.21-21.40.10:997][713]LogExit: Object subsystem successfully closed.
+[2016.01.21-21.40.11:016][713]LogD3D11RHI: Shutdown
+[2016.01.21-21.40.11:016][713]LogD3D11RHI: CleanupD3DDevice
+[2016.01.21-21.40.11:097][713]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.21-21.40.11:123][713]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.01.21-21.40.11:123][713]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.01.21-21.40.11:123][713]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.21-21.40.11:123][713]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.21-21.40.11:123][713]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.21-21.40.11:123][713]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.21-21.40.11:123][713]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.21-21.40.11:131][713]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.21-21.40.11:132][713]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.21-21.40.11:132][713]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.21-21.40.11:134][713]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.21-21.40.11:134][713]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.21-21.40.11:134][713]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.21-21.40.11:134][713]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.21-21.40.11:827][713]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.21-21.40.11:828][713]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.21-21.40.11:829][713]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.21-21.40.11:829][713]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.21-21.40.11:829][713]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.21-21.40.11:829][713]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.21-21.40.11:829][713]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.21-21.40.11:830][713]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.21-21.40.11:830][713]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.21-21.40.11:830][713]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.21-21.40.11:830][713]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.21-21.40.11:830][713]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.21-21.40.11:830][713]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.21-21.40.11:831][713]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.21-21.40.11:831][713]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.21-21.40.11:831][713]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.21-21.40.11:831][713]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.21-21.40.11:831][713]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.21-21.40.11:831][713]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.21-21.40.11:831][713]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.21-21.40.11:831][713]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.21-21.40.11:964][713]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.21-21.40.11:964][713]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.21-21.40.11:964][713]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.21-21.40.11:964][713]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.21-21.40.11:964][713]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.21-21.40.11:964][713]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.01.21-21.40.11:964][713]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.01.21-21.40.11:964][713]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.21-21.40.11:984][713]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.21-21.40.11:984][713]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.21-21.40.11:984][713]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.21-21.40.11:985][713]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.21-21.40.11:987][713]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.21-21.40.11:998][713]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.21-21.40.12:327][713]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.21-21.40.12:328][713]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.21-21.40.12:328][713]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.01.21-21.40.12:429][713]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.01.21-21.40.12:429][713]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.01.21-21.40.12:429][713]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.01.21-21.40.12:432][713]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.01.21-21.40.12:432][713]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.01.21-21.40.12:432][713]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.01.21-21.40.12:432][713]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.01.21-21.40.12:432][713]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.01.21-21.40.12:432][713]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.01.21-21.40.12:432][713]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.01.21-21.40.12:432][713]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.01.21-21.40.12:432][713]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.01.21-21.40.12:432][713]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.01.21-21.40.12:432][713]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.01.21-21.40.12:433][713]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.01.21-21.40.12:433][713]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.01.21-21.40.12:433][713]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.01.21-21.40.12:433][713]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.01.21-21.40.12:433][713]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.01.21-21.40.12:436][713]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.01.21-21.40.12:436][713]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.01.21-21.40.12:436][713]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.01.21-21.40.12:436][713]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.01.21-21.40.12:436][713]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.01.21-21.40.12:436][713]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.01.21-21.40.12:436][713]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.01.21-21.40.12:436][713]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.01.21-21.40.12:436][713]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.01.21-21.40.12:436][713]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.01.21-21.40.12:476][713]LogDerivedDataCache: Shutdown
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.01.21-21.40.12:476][713]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.01.21-21.40.12:477][713]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.01.21-21.40.13:992][713]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.01.21-21.40.13:992][713]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.01.21-21.40.13:992][713]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.21-21.40.13:992][713]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.21-21.40.13:993][713]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.21-21.40.13:993][713]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.21-21.40.13:993][713]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.21-21.40.14:015][713]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.21-21.40.14:015][713]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.21-21.40.14:015][713]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.21-21.40.14:015][713]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.21-21.40.14:015][713]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.21-21.40.14:015][713]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.21-21.40.14:015][713]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.21-21.40.14:015][713]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.21-21.40.14:015][713]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.21-21.40.14:015][713]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.21-21.40.14:017][713]LogExit: Exiting.
+[2016.01.21-21.40.14:035][713]Log file closed, 01/21/16 13:40:14
