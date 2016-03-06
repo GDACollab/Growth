@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>8360</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>Growth</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.10.3-2866931+++depot+UE4-Releases+4.10</EngineVersion>
+<CommandLine>-EpicPortal </CommandLine>
+<LanguageLCID>2052</LanguageLCID>
+<DefaultLocale>zh_CN</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>D:/UnReal Four/Epic Games/4.10/Engine/Binaries/Win64/</BaseDir>
+<RootDir>D:/UnReal Four/Epic Games/4.10/</RootDir>
+<MachineId>5D158885492531AF1F6758B0CB774B51</MachineId>
+<EpicAccountId>dabfe316a6c1439abd43e327ed2c1a37</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Assertion failed: InternalContext.IMMContext.IsComposing [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Core\Private\Windows\WindowsTextInputMethodSystem.cpp] [Line: 875] 
+
+</ErrorMessage>
+<MiscNumberOfCores>2</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>4</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>Intel(R) HD Graphics Family</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 7</MiscOSVersionMajor>
+<MiscOSVersionMinor>Service Pack 1</MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>8489771008</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>8796092891136</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>8</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>2713550848</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>8792936550400</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>1694052352</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>1694052352</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>2427781120</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>2511806464</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>
